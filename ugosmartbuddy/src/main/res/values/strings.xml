@@ -1,0 +1,1513 @@
+<resources>
+    <!--    <string name="app_name">CSMI GMR</string>  &lt;!&ndash;BENTEC Smart Energy&ndash;&gt;-->
+    <!--    <string name="app_name">BENTEC Smart Energy</string>  &lt;!&ndash;BENTEC Smart Energy&ndash;&gt;-->
+    <!--    <string name="app_name">TP CSMI</string>  &lt;!&ndash;Tata Power&ndash;&gt;-->
+    <string name="app_name">UGO CSMI</string>  <!--UGO CSMI-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login_to_continue">Login to Continue</string>
+    <string name="choose_utility">Choose Utility</string>
+    <string name="lbl_login_id">Login ID</string>
+    <string name="password">Password</string>
+    <string name="select_utility">Select Utility</string>
+    <string name="enter_login_id">Enter Login Id</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="filter_type">Search Type</string>
+    <string name="select_filter_type">Please select Search Type.</string>
+    <string name="consumer_no">Consumer No.</string>
+    <string name="survey_type">Survey Type</string>
+    <string name="enter_consumer_no">Enter Consumer Number.</string>
+    <string name="enter_consumer_acc_meter_no">Enter Consumer Account / Meter Number.</string>
+    <string name="enter_correct_acc_no">Enter Correct Account Number.</string>
+    <string name="enter_correct_meter_no">Enter Correct Meter Number.</string>
+    <string name="consumer_not_exists">Consumer not exists</string>
+    <string name="dt_not_exists">DTR Not Indexed</string>
+    <string name="feeder_not_exists">Feeder Not Indexed</string>
+    <string name="could_not_find_account_no">Couldn\'t find Account No. : XXXXXXXXX</string>
+    <string name="could_not_find_dt_no">Couldn\'t find DT : XXXXXXXXX</string>
+    <string name="please_recheck">Please Re-check/ Proceed.</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="dashboard_ci">CI Dashboard</string>
+    <string name="dashboard_mi">MI Dashboard</string>
+    <string name="consumer_index">Consumer Indexing</string>
+    <string name="search_consumer_index">Search Consumer Indexing</string>
+    <string name="meter_install">Meter Installation</string>
+    <string name="search_meter_install">Search Meter Installation</string>
+    <string name="download_data">Download Data</string>
+    <string name="profile">Profile</string>
+    <string name="monday_16_mar_2020">Monday, 16 Mar 2020</string>
+    <string name="today_completed">Today\'s Completed</string>
+    <string name="partial_completed">Partial Completed</string>
+    <string name="ci_visit">Consumer Indexing Visit</string>
+    <string name="mi_visit">Meter Installation Visit</string>
+    <string name="todayVisit">Today\'s Visit</string>
+    <string name="pendingConsumer">Pending Consumers</string>
+    <string name="new_completed">New Completed</string>
+    <string name="txt_ins">Note: Kindly <font color="#BD4328">SYNC OUT</font> your data after completion of work.</string>
+    <string name="sync_out">CLICK TO SYNC OUT</string>
+    <string name="sync_master_data">SYNC MASTER DATA</string>
+    <string name="sync_in">SYNC IN</string>
+    <string name="general_remark">General Remarks</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="consumer_info">Consumer Info</string>
+    <string name="installation_date_mi">Installation Date</string>
+    <string name="sc_no">Sc No.</string>
+    <string name="name">Consumer Name </string>
+    <string name="name_prev">Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="address">Address</string>
+    <string name="division">Division</string>
+    <string name="subdivision">Subdivision</string>
+    <string name="substation">Substation</string>
+    <string name="feeder_name_code">Feeder Name </string>
+    <string name="other_feeder_name">Other Feeder Name</string>
+    <string name="other_substation_name">Other Substation Name</string>
+    <string name="dtr_name">DTR Name</string>
+    <string name="other_dtr_name">Other DTR Name</string>
+    <string name="pole_no">Pole No.</string>
+    <string name="meter_on_pole">Meters at Pole</string>
+    <string name="existing_meter_details">Old Meter Details</string>
+    <string name="meter_details">Meter Details</string>
+    <string name="meter_no">Meter No.</string>
+    <string name="reading_kwh_kvah">Reading (KWH/ KVAH)</string>
+    <string name="mf">MF</string>
+    <string name="make_port">Make (Port)</string>
+    <string name="type">Type</string>
+    <string name="addition_details">Additional Details</string>
+    <string name="survey_date">Survey Date</string>
+    <string name="captured_by">Captured By</string>
+    <string name="remarks">Remarks</string>
+    <string name="mco">MCO No.</string>
+    <string name="mrn">MRN</string>
+    <string name="latitude_longitude">Latitude- Longitude</string>
+    <string name="meter_box_status">Meter Box Status</string>
+    <string name="meter_box_seal_status">Meter Box Seal Status</string>
+    <string name="meter_inside">Meter Inside</string>
+    <string name="meter_installation_feasibility">Meter Installation Feasibility</string>
+    <string name="discom_cable_work_required">Discom Cable Work Required</string>
+    <string name="finish">Finish</string>
+    <string name="finish_print">Finish + Print</string>
+    <string name="ok">OK</string>
+    <string name="old_meter_no">Old Meter No.</string>
+    <string name="admin_hierarchy">Admin Hierarchy</string>
+    <string name="network_hierarchy">Network Hierarchy</string>
+    <string name="network_info">Network Info</string>
+    <string name="operator">Sim 1 Operator</string>
+    <string name="operator2">Sim 2 Operator</string>
+    <string name="operator_sim">Sim Operator</string>
+    <string name="signal_strength1">Sim 1 Signal Strength</string>
+    <string name="signal_strength2">Sim 2 Signal Strength</string>
+    <string name="connection_type">Connection Type</string>
+    <string name="location">Location</string>
+    <string name="proceed">Proceed</string>
+    <string name="mobile_number">Mobile Number </string>
+    <string name="email_id">Email ID</string>
+    <string name="network_hierarchy_details">Network Hierarchy Details</string>
+    <string name="meter_make">Meter Make</string>
+    <string name="meter_make_prev">Meter Make</string>
+    <string name="old_meter_make">Old Meter Make </string>
+    <string name="old_meter_make_prev">Old Meter Make</string>
+    <string name="new_meter_make">New Meter Make</string>
+    <string name="new_meter_make_prev">New Meter Make</string>
+    <string name="meter_type">Meter Type</string>
+    <string name="old_meter_type">Old Meter Type</string>
+    <string name="old_phase_type">Old Phase Type</string>
+    <string name="new_phase_type">New Phase Type</string>
+    <string name="new_phase_type_man">New Phase Type</string>
+    <string name="meter_location">Meter Location</string>
+    <string name="meter_location_man">Meter Location <font color='#f32013'>*</font></string>
+    <string name="ping_status">Ping Status</string>
+    <string name="port_type">Port Type</string>
+    <string name="meter_mf">Meter MF</string>
+    <string name="cumulative_kwh">Cumulative (KWH)</string>
+    <string name="meter_reading_in_kwh">Meter Reading (KWH)</string>
+    <string name="meter_reading_in_kvah">Meter Reading (KVAH)</string>
+    <string name="final_meter_reading_kwh">Reading (KWH)</string>
+    <string name="final_meter_reading_kvah">Reading (KVAH)</string>
+    <string name="final_meter_reading_kw">Reading (KW)</string>
+    <string name="final_meter_reading_kva">Reading (KVA)</string>
+    <string name="final_meter_reading_kvarh">Reading (KVARh)</string>
+    <string name="final_meter_reading_mwh_prev">Reading (MWh) </string>
+    <string name="final_meter_reading_mvah_prev">Reading (MVAh) </string>
+    <string name="final_meter_reading_mw_prev">Reading (MW) </string>
+    <string name="final_meter_reading_mva_prev">Reading (MVA) </string>
+    <string name="final_meter_reading_mvarh_prev">Reading (MVARh) </string>
+    <string name="final_meter_reading_mwh">Reading (MWh) <font color='#f32013'>*</font></string>
+    <string name="final_meter_reading_mvah">Reading (MVAh) <font color='#f32013'>*</font></string>
+    <string name="final_valid_meter_reading">Please enter valid Reading.</string>
+    <string name="valid_initial_reading">Please enter valid Initial Reading.</string>
+    <string name="final_valid_meter_reading_kwh">Please enter valid Reading (KWH).</string>
+    <string name="final_valid_meter_reading_kvah">Please enter valid Reading (KVAH).</string>
+    <string name="initial_valid_reading_kwh">Please enter valid Initial Reading (KWH).</string>
+    <string name="initial_valid_reading_kvah">Please enter valid Initial Reading (KVAH).</string>
+    <string name="max_demand_kw">Max Demand (KW)</string>
+    <string name="max_demand_kva">Max Demand (KVA)</string>
+    <string name="other_details">Other Details</string>
+    <string name="meter_status">Meter Status</string>
+    <string name="meter_status_prev">Meter Status</string>
+    <string name="choose_multiple">Choose Multiple</string>
+    <string name="no_internet_connection">No Internet Connection.</string>
+    <string name="you_re_offline">You\'re offline.</string>
+    <string name="check_your_connection_settings">Check your connection Settings.</string>
+    <string name="retry">Retry</string>
+    <string name="title">Title</string>
+    <string name="user_message">User Message</string>
+    <string name="cancel">Cancel</string>
+    <string name="action_ok">Ok</string>
+    <string name="uploading_data">Uploading Data...</string>
+    <string name="billing">Billing</string>
+    <string name="distribution">Distribution</string>
+    <string name="logout">Logout</string>
+    <string name="permission_required">Camera access is required to display the camera preview.</string>
+    <string name="permission_granted">Permission is granted. You can use the camera now.</string>
+    <string name="location_not_found">Location Not Found!</string>
+    <string name="fetching">Searching...</string>
+    <string name="please_re_check_or_proceed">Please Re-check/Proceed.</string>
+    <string name="consumer_not_exist">Consumer Not Exist</string>
+    <string name="user_not_exist">User Not Exist</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dtr_name_code">DTR Name</string>
+    <string name="dtr_name_code_prev">DTR Name</string>
+    <string name="consumer_category">Consumer Category</string>
+    <string name="installationStatus">Installation Status</string>
+    <string name="consumer_category_prev">Consumer Category</string>
+    <string name="consumer_category_name">Consumer Category Name</string>
+    <string name="consumer_status">Consumer Type</string>
+    <string name="consumer_status_prev">Consumer Type</string>
+    <string name="consumer_address">Consumer Address</string>
+    <string name="meter_load">Meter Load</string>
+    <string name="old_meter_details">Old Meter Details</string>
+    <string name="unmetered_consumer"><font color="#000000">Note : - This Consumer is Unmetered.</font> </string>
+    <string name="new_meter_details">New Meter Details</string>
+    <string name="old_meter_serial_no">Old Meter Serial No.</string>
+    <string name="old_meter_serial_no_prev">Old Meter Serial No.</string>
+    <string name="new_meter_serial_no">New Meter Serial No.</string>
+    <string name="new_meter_serial_no_prev">New Meter Serial No.</string>
+    <string name="SimCardNo">Sim Card No.</string>
+    <string name="SimCardNo_prev">Sim Card No. </string>
+    <string name="IMEINo_prev">IMEI No. </string>
+    <string name="initialReadingKwh">Initial Reading (KWH)</string>
+    <string name="initialReadingKvah">Initial Reading (KVAH)</string>
+    <string name="initialReadingKwhMandatory">Initial Reading (KWH) </string>
+    <string name="initialReadingKvahMandatory">Initial Reading (KVAH) </string>
+    <string name="validInitialReading">Please enter valid Initial Reading.</string>
+    <string name="meter_box">Meter Box</string>
+    <string name="extra_service_cable">Extra Service Cable</string>
+    <string name="dialogMessage">Do you want to exit?</string>
+    <string name="oldSealNo">Old Seal No. </string>
+    <string name="oldSealNo1">Old Seal No. 1 </string>
+    <string name="oldSealNo2">Old Seal No. 2 </string>
+    <string name="oldSealNo3">Old Seal No. 3 </string>
+    <string name="meter_sealed">Meter Sealed</string>
+    <string name="meter_terminal_seal_no">Meter Terminal Seal No.</string>
+    <string name="old_meter_terminal_seal_no">Old Meter Terminal Seal No.</string>
+    <string name="new_meter_terminal_seal_no">New Meter Terminal Seal No.</string>
+    <string name="meter_seal_box">Meter Box Seal No.</string>
+    <string name="meter_seal_body">Meter Body Seal No.</string>
+    <string name="somethingwentwrong">Something Went Wrong !!!</string>
+    <string name="enter_both">Please enter Login Id and Password. </string>
+    <string name="please_select_utility">Please select Utility</string>
+    <string name="str_instruction">Data collection process successfully done, Have a Good Day.</string>
+    <string name="move_Search_Consumer">Move to Next Consumer</string>
+    <string name="noerrorfileavailable">No data available to upload.</string>
+    <string name="logout_from_app">Are you sure to logout ?</string>
+    <string name="enter_dtr_code">Please enter DTR Name.</string>
+    <string name="enter_valid_dtr_code">Please enter valid DTR Name.</string>
+    <string name="enter_valid_feeder_code">Please enter valid Feeder Name.</string>
+    <string name="enter_consumer_name">Please enter Consumer Name.</string>
+    <string name="select_consumer_category">Please select Consumer Category.</string>
+    <string name="select_dtr">Please select DTR Name.</string>
+    <string name="select_feeder">Please select Feeder Name.</string>
+    <string name="enter_other_substation">Please enter Other Substation Name.</string>
+    <string name="enter_other_feeder">Please enter Other Feeder Name.</string>
+    <string name="enter_valid_other_feeder">Please enter valid Other Feeder Name.</string>
+    <string name="enter_other_dtr">Please enter Other DTR Name.</string>
+    <string name="enter_valid_other_dtr">Please enter valid Other DTR Name.</string>
+    <string name="enter_consumer_category_name">Please enter Consumer Category Name.</string>
+    <string name="enter_reason">Please enter Reason.</string>
+    <string name="select_consumer_status">Please select Consumer Type.</string>
+    <string name="select_meter_make">Please select Meter Make.</string>
+    <string name="select_meter_type">Please select Meter Type.</string>
+    <string name="select_ping_status">Please select Ping Status.</string>
+    <string name="select_port_type">Please select Port Type.</string>
+    <string name="select_old_meter_make">Please select Old Meter Make.</string>
+    <string name="select_new_meter_make">Please select New Meter Make.</string>
+    <string name="select_old_phase_type">Please select Old Phase Type.</string>
+    <string name="select_new_phase_type">Please select New Phase Type.</string>
+    <string name="select_meter_status">Please select Meter Status.</string>
+    <string name="enter_meter_no">Please enter Meter Number.</string>
+    <string name="enter_valid_meter_no">Please enter valid Meter Number.</string>
+    <string name="enter_old_meter_serial_no">Please enter Old Meter Serial No.</string>
+    <string name="enter_new_meter_serial_no">Please enter New Meter Serial No.</string>
+    <string name="enter_new_meter_serial_no_from_list">Please select Meter Serial Number From List.</string>
+    <string name="old_meter_no_and_new_meter_no_not_same">Old Meter Serial Number and New Meter Serial Number can\'t be Equals.</string>
+    <string name="old_enter_correct_meter_serial_no">Old Meter Serial Number More Than 3 Digits.</string>
+    <string name="new_enter_correct_meter_serial_no">New Meter Serial Number More Than 3 Digits.</string>
+    <string name="enter_final_meter_reading">Please enter Reading.</string>
+    <string name="enter_valid_final_meter_reading">Please enter Reading.</string>
+    <string name="please_click_old_meter_image">Please Attach Old Meter Image.</string>
+    <string name="select_correct_meter_status">Please select Correct Meter Status.</string>
+    <string name="select_correct_old_meter_status">Please select correct old Meter Status.</string>
+    <string name="please_click_new_meter_image">Please Attach New Meter Image.</string>
+    <string name="please_meter_image1">Please Attach Meter Image1.</string>
+    <string name="please_meter_image2">Please Attach Meter Image2.</string>
+    <string name="please_modem_image1">Please Attach Modem Image1.</string>
+    <string name="please_modem_image2">Please Attach Modem Image2.</string>
+    <string name="please_attach_dt_meter_box_open">Please Attach DT Meter Box Open Image.</string>
+    <string name="please_attach_sealed_dt_meter">Please Attach Sealed DT Meter Box Image.</string>
+    <string name="please_meter_image_both">Please Attach Both Images.</string>
+    <string name="enter_initial_Reading">Please enter Initial Reading.</string>
+    <string name="please_click_order_ceritificate_image">Please Attach Order Certificate Image.</string>
+    <string name="please_click_mcr_image">Please Attach MCR Image.</string>
+    <string name="vedio_not_attach">Please Attach Image Only.</string>
+    <string name="enter_correct_sim_card_no">Please enter Sim Card No. More Than 12 Digits.</string>
+    <string name="enter_sim_card_no">Please enter Sim Card No.</string>
+    <string name="other_old_meter_make_name">Other Old Meter Make Name</string>
+    <string name="please_enter_other_old_meter_make_name">Please enter Other Old Meter Make Name.</string>
+    <string name="please_enter_other_new_meter_make_name">Please enter Other New Meter Make Name.</string>
+    <string name="other_new_meter_make_name">Other New Meter Make Name.</string>
+    <string name="enter_kwh">Please enter Meter Reading (KWH).</string>
+    <string name="enter_cumulative_kwh">Please enter Cumulative (KWH).</string>
+    <string name="enter_initial_kwh">Please enter Initial Reading (KWH).</string>
+    <string name="enter_initial_kvah">Please enter Initial Reading (KVAH).</string>
+    <string name="enter_kwh_correct">Please enter valid Meter Reading (KWH).</string>
+    <string name="enter_kvah_correct">Please enter valid Meter Reading (KVAH).</string>
+    <string name="download_consumers">Press <font color="#BD4328">DOWNLOAD</font> button then your working list will be downloaded on your mobile</string>
+    <string name="download_complaints">Press <font color="#BD4328">DOWNLOAD</font> button then your assigned complaint will be downloaded on your mobile</string>
+    <string name="download_feeder">Press <font color="#BD4328">DOWNLOAD</font> button then your assigned Feeder will be downloaded on your mobile</string>
+    <string name="download_dt">Press <font color="#BD4328">DOWNLOAD</font> button then your assigned DT will be downloaded on your mobile</string>
+    <string name="enter_correct_reading"> Reading (KVAH) should be greater than Reading (KWH). </string>
+    <string name="enter_valid_KW">Please enter valid KW.</string>
+    <string name="enter_valid_KVA">Please enter valid KVA.</string>
+    <string name="enter_valid_initial_reading">Please enter valid Initial Reading.</string>>
+    <string name="search">Search</string>
+    <string name="wrong_meter_status">Wrong Meter Status Selected.</string>
+    <string name="enter_valid_email">Please enter valid Email ID.</string>
+    <string name="enter_valid_mobile">Please enter valid Mobile Number.</string>
+    <string name="enter_mobile">Please enter Mobile Number.</string>
+    <string name="prev_name">Name</string>
+    <string name="discom_image">discom Image</string>
+    <string name="choose_batch">Choose Batch</string>
+    <string name="action">Action</string>
+    <string name="apply">Apply</string>
+    <string name="reset">Reset</string>
+    <string name="ci_summary">CI Summary Report</string>
+    <string name="mi_summary">MI Summary Report</string>
+    <string name="sorry_no_data_found">Sorry , No Data Found</string>
+    <string name="total_visited_consumer">Total Visited Consumers: </string>
+    <string name="reason">Reason <font color='#f32013'>*</font></string>
+    <string name="empCode">Emp Code:</string>
+    <string name="notAvailable">Not Available</string>
+    <string name="fill_all_details">Please Fill all Details.</string>
+    <string name="assign_qr_code">Assign QR Code</string>
+    <string name="auto_mri">AUTO MRI</string>
+    <string name="auto_mri_label">Download Meter</string>
+    <string name="medium">Connection Medium</string>
+    <string name="select_complaint_type">Please select Complaint Type.</string>
+    <string name="enter_description">enter description here</string>
+    <string name="description">Description</string>
+    <string name="complaint">Raise Complaint</string>
+    <string name="complaint_dashboard">Complaint Dashboard</string>
+    <string name="download_complaint_data">Download Compalint Data</string>
+    <string name="complaint_type">Complaint Type</string>
+    <string name="complaint_no">Complaint No: </string>
+    <string name="status">Status </string>
+    <string name="raised_on">Raised On </string>
+    <string name="complaint_details">Complaint Details </string>
+    <string name="closing_date">Closing Date </string>
+    <string name="protocol">Protocol</string>
+    <string name="cable_type">Cable Type</string>
+    <string name="cable_status">Cable Status</string>
+    <string name="cable_length">Cable Length (Meter)</string>
+    <string name="cable_size">Cable Size (Square mm)</string>
+
+    <string name="phase_type">Phase Type</string>
+    <string name="meter_capacity">Meter Capacity</string>
+    <string name="meter_class">Meter Class</string>
+    <string name="account_name">Account No.</string>
+    <string name="enter_account_meter">Please enter Account No.</string>
+    <string name="attechment">Attachment</string>
+    <string name="complaint_assign">Assigned Complaint</string>
+    <string name="enter_remark">Please enter Remark.</string>
+    <string name="power_supply">Power Supply</string>
+    <string name="display">Display</string>
+    <string name="rectification_action">Rectification Action</string>
+    <string name="data_download">Data Download</string>
+    <string name="please_enter_remark">Please enter Remark.</string>
+    <string name="please_enter_replace_nic_no">Please enter Replaced NIC No.</string>
+    <string name="please_enter_replace_sim_no">Please enter Replaced SIM No.</string>
+    <string name="consumer_name">Consumer Name</string>
+    <string name="imeino">IMEI No.</string>
+    <string name="other_meter_make">Other Meter Make</string>
+    <string name="enter_other_meter_make">Please enter Other Meter Make.</string>
+    <string name="sim1">SIM1</string>
+    <string name="rsrp">RSRP</string>
+    <string name="rsrq">RSRQ</string>
+    <string name="sinr">SINR</string>
+    <string name="rssi">RSSI</string>
+    <string name="sim2">SIM2</string>
+    <string name="turn_on_internet">Please Turn ON Your Internet.</string>
+    <string name="scan_qr_code">Please Scan QR Code</string>
+    <string name="dB">dB</string>
+    <string name="dBm">dBm</string>
+    <string name="na">NA</string>
+    <string name="choose_months">Choose <Month></Month></string>
+    <string name="cabel_length">Cabel Length Can`t Greater Then 1000.</string>
+    <string name="valid_cabel_length">Please enter valid Cable Length.</string>
+    <string name="enter_extra_cable_length">Please enter Extra Cable Length.</string>
+    <string name="next_line">\n</string>
+    <string name="too_late">TOO LATE</string>
+    <string name="working">WORKING</string>
+    <string name="latitude" translatable="false">latitude</string>
+    <string name="lat" translatable="false">Lat :</string>
+    <string name="longitude" translatable="false">longitude</string>
+    <string name="lon" translatable="false">Long :</string>
+    <string name="task_address">Searching...</string>
+    <string name="check_attendance_status">Checking Attendance Status</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDtiD-jLquwpdgxXndk7K_eAeM3lr4_8Xc</string>
+    <string name="your_mobile_gps_not">Your Mobile GPS not Enable</string>
+    <string name="fetching_gps_location">Fetching GPS Location</string>
+    <string name="checked_text">Swipe to Check In</string>
+    <string name="unchecked_text">Swipe to Check Out</string>
+    <string name="check_in">Check In</string>
+    <string name="check_out">Check Out</string>
+    <string name="checkin">I swear that I will do my work with full devotion and dedication to the quality standards set by the company.</string>
+    <string name="checkout">Thank you for doing your work in accordance with the quality standards set by the company with full devotion and dedication.</string>
+    <string name="hes_commissioning_test">HES Commissioning Test</string>
+    <string name="ping">Ping</string>
+    <string name="click_on_ping_btn">Click On Ping Button</string>
+    <string name="check_commissioning">Please Check HES Commissioning First.</string>
+    <string name="i_agree">I,Agree</string>
+    <string name="do_s">Do\'s</string>
+    <string name="install_meter_box_between_3_to_6_feet_height">Install Meter Box Between 3 to 6 Feet Height</string>
+    <string name="use_screw_d_river_t_spanner_for_testing_box_screw_fastners">Use Screw Driver/T-spanner For Testing Box Screw/Fastners</string>
+    <string name="use_crimping_machine_to_crimp_thimble_and_proper_taping_done_on_thimble">Use Crimping Machine to Crimp Thimble And Proper Taping Done on Thimble.</string>
+    <string name="earthing_is_mandatory_at_both_ends_i_e_meter_end_and_pole_end">Earthing Is Mandatory at Both Ends (i.e., Meter End and Pole End).</string>
+    <string name="cable_anchor_should_be_used_at_both_ends">Cable Anchor Should Be Used At Both Ends.</string>
+    <string name="cable_height_should_be_5_6_mtr_along_with_the_road_and_if_cable_crossing_the_road_the_height_should_be_5_8_mitr">Cable Height Should Be 5.6 Mtr Along With The Road And If Cable Crossing The Road The Height Should Be 5.8 Mitr.</string>
+    <string name="proper_saddling_of_cable_at_1_5_mtr_gap">Proper Saddling Of Cable At 1.5 Mtr Gap.</string>
+    <string name="all_meters_should_be_installed_in_the_box">All Meters Should Be Installed In The Box.</string>
+    <string name="earthing_must_be_checked_through_test_lamp_at_both_the_ends">Earthing Must Be Checked Through Test Lamp At Both The Ends.</string>
+    <string name="properly_tighten_the_cable_at_pole_and_consumer_end_by_installing_angle_and_tie_the_cable_through_cable_tie_armour_of_the_cable">Properly Tighten the Cable at Pole and Consumer End By Installing Angle and Tie the Cable Through Cable Tie/ Armour of the Cable.</string>
+    <string name="properly_tighten_the_cable_at_anchor">Properly Tighten the Cable at Anchor.</string>
+    <string name="ensure_minimum_sagging_of_the_cable">Ensure Minimum Sagging of the Cable.</string>
+    <string name="vermin_proofing_should_be_done_at_both_glands">Vermin Proofing should be Done at both Glands.</string>
+    <string name="don_t">Don\'t</string>
+    <string name="don_t_install_box_tilted">Don\'t Install Box Tilted.</string>
+    <string name="don_t_install_meter_below_3_feet_over_6_feet"><![CDATA[Don\'t Install Meter Below 3 Feet & Over 6 Feet.]]></string>
+    <string name="don_t_use_premises_grill_for_cable_support">Don\'t Use Premises Grill For Cable Support.</string>
+    <string name="angle_bracket_should_not_be_fixed_with_nails_and_should_not_be_closed">Angle Bracket Should Not Be Fixed With Nails And Should Not Be Closed.</string>
+    <string name="don_t_use_low_quality_m_seal">Don\'t Use Low Quality M. Seal</string>
+    <string name="do_not_insert_the_cable_wihout_twisting_the_conductor">Do Not Insert The Cable Wihout Twisting The Conductor</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_type">Item Type</string>
+    <string name="old_meter_accessories">Old Meter Accessories</string>
+    <string name="item_details">Item Details</string>
+    <string name="enter_item_details">Enter Quantity/Length</string>
+    <string name="add_item">+ Add Item</string>
+    <string name="select_item_name">Please select Item Name.</string>
+    <string name="select_item_type">Please select Item Type.</string>
+    <string name="please_enter_item_details">Please enter Qunatity/Length.</string>
+    <string name="please_enter_valid_item_details">Please enter valid Qunatity/Length.</string>
+    <string name="new_meter_accessories">New Meter Accessories</string>
+    <string name="mark_faulty">+ Mark Faulty</string>
+    <string name="extra_cable_require">Extra Cable Require</string>
+    <string name="extra_cable_length">Extra Cable Length (Meter)</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="available_printer_s">Available Printer(s)</string>
+    <string name="print">Print</string>
+    <string name="deviceconnected">Device is Connected</string>
+    <string name="unabletoconnect">Unable to Connect</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="devicealreadyconnected">Device Already Connected</string>
+    <string name="connectionfailed">Connection Failed</string>
+    <string name="connectionpaired">No Paired Device Available Please Paired Device First</string>
+    <string name="permission_alert_dialog_title">Require Permission</string>
+    <string name="permission_dialog_message">Please allow required permission.</string>
+    <string name="print_receipt">Print Receipt</string>
+    <string name="enter_valid_name">Consumer Name contains space in starting or end.</string>
+    <string name="simCardNoPrev">Sim Card No. </string>
+    <string name="imeiNoPrev">IMEI No. </string>
+    <string name="enter_valid_feeder">Please enter valid Feeder Name.</string>
+    <string name="enter_valid_consumerName">Please enter valid Consumer Name.</string>
+    <string name="enter_valid_dtName">Please enter valid DTR Name.</string>
+    <string name="enter_valid_reason">Please enter valid Reason</string>
+    <string name="enter_valid_meterserial">Please enter valid Meter Serial No.</string>
+    <string name="enter_address">Please enter Consumer Address</string>
+    <string name="enter_valid_address">Please enter valid Consumer Address.</string>
+    <string name="enter_valid_simcardNo">Please enter valid Sim Card No.</string>
+    <string name="enter_valid_terminalseal">Please enter valid Terminal Seal No.</string>
+    <string name="enter_valid_meterboxseal">Please enter valid MeterBox Seal No.</string>
+    <string name="enter_valid_mcono">Please enter valid MCO No.</string>
+    <string name="enter_valid_imei">Please enter valid IMEI No.</string>
+    <string name="enter_valid_oldseal">Please enter valid Old Seal No.</string>
+    <string name="click_here_to_upload">Click here to Upload</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_password">New Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password_instruction">New Password Instruction :</string>
+    <string name="password_contains">Passwords must contain:</string>
+    <string name="_1_lower_case">1. Minimum of 1 lower case letter [a-z] and</string>
+    <string name="_2_upper_case">2. Minimum of 1 upper case letter [A-Z] and</string>
+    <string name="_3_upper_case">3. Minimum of 1 numeric character [0–9] and</string>
+    <string name="_4_upper_case">4. Minimum of 1 special character:!@#$%?</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password_blank">Old Password Required</string>
+    <string name="new_password_blank">New Password Required</string>
+    <string name="confirm_password_blank">Confirm Password Required</string>
+    <string name="old_new_match">Old Password And New Password Can Not Be Same</string>
+    <string name="new_Password_Length">New Password Minimum Length 8 Character Required</string>
+
+    <string name="not_valid_password">New Password Format is Not Valid</string>
+    <string name="new_confirm_match">New Password And Confirm Password Should be Same</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="downloading_consumer_data">Downloading Consumer Data...</string>
+    <string name="downloading_complaint_data">Downloading Complaint Data...</string>
+    <string name="downloading_feeder_data">Downloading Feeder Data...</string>
+    <string name="downloading_dt_data">Downloading DT Data...</string>
+    <string name="searching_consumer_data">Searching Consumer Data...</string>
+    <string name="searching_dt_data">Searching DT Data...</string>
+    <string name="searching_feeder_data">Searching Feeder Data...</string>
+    <string name="no_meter_assign_for_markfaulty">No Meter Assign for Mark Faulty</string>
+
+    <string name="cablenotconnected">Cable is cot Connected Properly</string>
+    <string name="auto_mri_enable">Please Enable Auto MRI</string>
+    <string name="meter_terminal_cover_status">Meter Terminal Cover Status</string>
+    <string name="meter_terminal_cover_screw">Meter Terminal Cover Screw</string>
+    <string name="terminal_remarks">Terminal Cover Remarks</string>
+    <string name="feeder_details">Feeder Details</string>
+    <string name="feeder_code">Feeder Code</string>
+    <string name="feeder_capacity">Feeder Capacity(KV)</string>
+    <string name="feeder_category_prev">Feeder Category</string>
+    <string name="feeder_category">Feeder Category <font color='#f32013'>*</font></string>
+    <string name="model_no">Model No. <font color='#f32013'>*</font></string>
+    <string name="feeder_type_prev">Feeder Type</string>
+    <string name="feeder_type">Feeder Type <font color='#f32013'>*</font></string>
+    <string name="serving_area">Serving Area</string>
+    <string name="feeder_location">Feeder Location</string>
+    <string name="landmark">Landmark</string>
+    <string name="ptr_name">PTR Name</string>
+    <string name="ptr_capacity">PTR Capacity (MVA)</string>
+    <string name="ptr_make">PTR Make</string>
+    <string name="division_code">Division Code</string>
+    <string name="sub_division_code">Sub-Division Code</string>
+    <string name="discom_hierarchy_details">DISCOM Hierarchy Details</string>
+    <string name="meter_available">Meter Available</string>
+    <string name="meter_serial_no">Meter Serial No.</string>
+    <string name="meter_manufarturing">MFG Year</string>
+    <string name="reading_kvarh">Reading(KVArh)</string>
+    <string name="meter_ct">Meter CT</string>
+    <string name="meter_ct_mam">Meter CT <font color='#f32013'>*</font></string>
+    <string name="meter_box_no">Meter Box No.</string>
+    <string name="ct_status">CT Status</string>
+    <string name="ct_ratio">CT Ratio</string>
+    <string name="pt_status">PT Status</string>
+    <string name="pt_ratio">PT Ratio</string>
+    <string name="pt_status_man">PT Status <font color='#f32013'>*</font></string>
+    <string name="pt_ratio_man">PT Ratio <font color='#f32013'>*</font></string>
+    <string name="additional_details">Additional Details</string>
+    <string name="meter_height">Meter Height (Ft.)</string>
+    <string name="outgoing_breaker">Outgoing Breaker(Nos.)</string>
+    <string name="mounting_arrangements_prev">Mounting Arrangements</string>
+    <string name="mounting_arrangements">Mounting Arrangements <font color='#f32013'>*</font></string>
+    <string name="modem_details">Modem Details</string>
+    <string name="old_modem_details">Old Modem Details</string>
+    <string name="modem_no">Modem No.<font color='#f32013'>*</font></string>
+    <string name="modem_make">Modem Make <font color='#f32013'>*</font></string>
+    <string name="installed">Installed</string>
+    <string name="seal_no">Seal No.</string>
+    <string name="mdm_no">MDM No.</string>
+    <string name="firmware_no">Firmware No.</string>
+    <string name="sim_provider">Sim Provider</string>
+    <string name="meter_box_seal_no">Meter Box Seal No.</string>
+    <string name="old_meter_box_seal_no">Old Meter Box Seal No.</string>
+    <string name="new_meter_box_seal_no">New Meter Box Seal No.</string>
+    <string name="dt_details">DT Details</string>
+    <string name="pole_type">Pole Type</string>
+    <string name="no_of_lt_curcuits">No. of LT Curcuits</string>
+    <string name="r_phase">R Phase</string>
+    <string name="y_phase">Y Phase</string>
+    <string name="b_phase">B Phase</string>
+    <string name="reading_kwh">Reading KWh</string>
+    <string name="reading_kvah">Reading KVAh</string>
+    <string name="cabel_size_mmsquare">Cabel Size (Square mm)</string>
+    <string name="cabel_length_mtr">Cabel Length (MTR)</string>
+    <string name="dt_capacity_kva">DT Capacity KVa</string>
+    <string name="meter_availabilty">Meter Availabilty</string>
+    <string name="meter_ct_ratio">Meter CT Ratio</string>
+    <string name="enter_feeder_name">Please select Feeder Name.</string>
+    <string name="enter_feeder_code">Please enter Feeder Code.</string>
+    <string name="enter_feeder_capacity">Please enter Feeder Capacity.</string>
+    <string name="enter_valid_feeder_capacity">Please enter valid Feeder Capacity.</string>
+    <string name="enter_landmark">Please enter Landmark.</string>
+    <string name="enter_ptrname">Please enter PTR Name.</string>
+    <string name="enter_valid_ptr_capacity">Please enter valid PTR Capacity.</string>
+    <string name="enter_division_code">Please enter Division Code.</string>
+    <string name="enter_sub_division_code">Please enter Sub-Division Code.</string>
+    <string name="enter_max_demand_kw">Please enter Max Demand(KW).</string>
+    <string name="enter_max_demand_kva">Please enter Max Demand(KVA).</string>
+    <string name="enter_reading_kwh">Please enter Reading(KWH).</string>
+    <string name="enter_reading_kvah">Please enter Reading(KVAH).</string>
+    <string name="enter_reading_kvarh">Please enter Reading(KVArh).</string>
+    <string name="enter_correct_max_demand_kw">Please enter correct Max Demand(KW).</string>
+    <string name="enter_correct_max_demand_kva">Please enter correct Max Demand(KVA).</string>
+    <string name="enter_correct_reading_kwh">Please enter correct Reading(KWH).</string>
+    <string name="enter_correct_reading_kvah">Please enter correct Reading(KVAH).</string>
+    <string name="enter_correct_reading_kvarh">Please enter correct Reading(KVArh).</string>
+
+    <string name="enter_reading_mwh">Please enter Reading </string>
+    <string name="enter_reading_mvah">Please enter Reading </string>
+    <string name="enter_correct_reading_mwh">Please enter correct Reading </string>
+    <string name="enter_correct_reading_mvah">Please enter correct Reading </string>
+    <string name="enter_correct_reading_mvah_mwh">  should be greater than </string>
+
+    <string name="mwh"> MWH </string>
+    <string name="mvah"> MVAH </string>
+    <string name="mw"> MW </string>
+    <string name="mva"> MVA </string>
+    <string name="mvarh"> MVARh </string>
+    <string name="kwh"> KWH </string>
+    <string name="kvah"> KVAH </string>
+    <string name="kw"> KW </string>
+    <string name="kva"> KVA </string>
+    <string name="kvarh"> KVARh </string>
+
+    <string name="select_feeder_type">Please select Feeder Type.</string>
+    <string name="select_sub_station">Please select SubStation.</string>
+    <string name="select_division">Please select Division Name.</string>
+    <string name="select_sub_division">Please select Sub-Division Name.</string>
+    <string name="select_phase_type">Please select Phase Type.</string>
+    <string name="select_meter_class">Please select Meter Class.</string>
+    <string name="select_meter_ct">Please select Meter CT.</string>
+    <string name="select_ct_status">Please select CT Status.</string>
+    <string name="select_pt_status">Please select PT Status.</string>
+    <string name="select_ct_ratio">Please select CT Ratio.</string>
+    <string name="select_pt_ratio">Please select PT Ratio.</string>
+    <string name="select_meter_location">Please select Meter Location.</string>
+    <string name="select_amr">Please select Modem Availability.</string>
+    <string name="select_mounting_arrangement">Please select Mounting Arrangement.</string>
+    <string name="move_Search_feeder">Move to Next Feeder</string>
+    <string name="hes_commissioning_in_progress">HES Commissioning In Progress.</string>
+    <string name="enter_seal_no">Please enter Seal No.</string>
+    <string name="enter_valid_meter_box">Please enter valid Meter Box No.</string>
+
+    <string name="enter_dt_name">Please enter DT Name.</string>
+    <string name="enter_dt_code">Please enter DT Code.</string>
+    <string name="enter_dt_capacity">Please enter DT Capacity.</string>
+    <string name="enter_valid_dt_capacity">Please enter valid DT Capacity.</string>
+    <string name="select_dt_position">Please select DT Position.</string>
+    <string name="select_cable_type">Please select Cable Type.</string>
+    <string name="select_cable_status">Please select Cable Status.</string>
+    <string name="enter_dt_address">Please enter DT Address</string>
+    <string name="enter_cable_size">Please select Cable Size.</string>
+    <string name="enter_cable_length">Please enter Cable Length.</string>
+    <string name="move_Search_dt">Move to Next DT</string>
+    <string name="select_modem_make">Please select Modem Make.</string>
+    <string name="enter_modem_no">Please Enter Modem No.</string>
+    <string name="enter_terminal_seal_no">Please enter Meter Terminal Seal No.</string>
+    <string name="enter_body_seal_no">Please enter Meter Body Seal No.</string>
+    <string name="enter_meter_box_seal_no">Please enter Meter Box Seal No.</string>
+    <string name="enter_nic_seal_no">Please enter Nic Seal No.</string>
+    <string name="enter_reset_seal_no">Please enter Meter Reset Button Seal No.</string>
+    <string name="select_old_meter_class">Please select Old Meter Class.</string>
+    <string name="select_new_meter_class">Please select New Meter Class.</string>
+    <string name="enter_old_demand_kw">Please enter old Max Demand(KW).</string>
+    <string name="enter_old_demand_kva">Please enter old Max Demand(KVA).</string>
+    <string name="enter_old_kwh">Please enter old Reading(KWh).</string>
+    <string name="enter_old_kvah">Please enter old Reading(KVAh).</string>
+    <string name="enter_old_kvarh">Please enter old Reading(KVArh).</string>
+    <string name="enter_old_correct_max_demand_kw">Please enter correct old Max Demand(KW).</string>
+    <string name="enter_old_correct_max_demand_kva">Please enter correct old Max Demand(KVA).</string>
+    <string name="enter_old_correct_reading_kwh">Please enter correct old Reading(KWH).</string>
+    <string name="enter_old_correct_reading_kvah">Please enter correct old Reading(KVAH).</string>
+    <string name="enter_old_correct_reading_kvarh">Please enter correct old Reading(KVArh).</string>
+    <string name="select_old_meter_ct">Please select old Meter CT.</string>
+    <string name="select_old_ct_ratio">Please select old CT Ratio.</string>
+    <string name="select_old_pt_ratio">Please select old PT Ratio.</string>
+    <string name="select_old_meter_location">Please select old Meter Location.</string>
+    <string name="enter_old_seal_no">Please enter old Seal No.</string>
+    <string name="select_old_meter_type">Please select old Meter Type.</string>
+    <string name="select_old_meter_status">Please select old Meter Type.</string>
+    <string name="enter_old_terminal_seal_no">Please enter old Meter Terminal Seal No.</string>
+
+    <string name="enter_new_demand_kw">Please enter new Max Demand(KW).</string>
+    <string name="enter_new_demand_kva">Please enter new Max Demand(KVA).</string>
+    <string name="enter_new_kwh">Please enter new Reading(KWh).</string>
+    <string name="enter_new_kvah">Please enter new Reading(KVAh).</string>
+    <string name="enter_new_kvarh">Please enter new Reading(KVArh).</string>
+    <string name="enter_new_correct_max_demand_kw">Please enter correct new Max Demand(KW).</string>
+    <string name="enter_new_correct_max_demand_kva">Please enter correct new Max Demand(KVA).</string>
+    <string name="enter_new_correct_reading_kwh">Please enter correct new Reading(KWH).</string>
+    <string name="enter_new_correct_reading_kvah">Please enter correct new Reading(KVAH).</string>
+    <string name="enter_new_correct_reading_kvarh">Please enter correct new Reading(KVArh).</string>
+    <string name="select_new_meter_ct">Please select new Meter CT.</string>
+    <string name="select_new_ct_ratio">Please select new CT Ratio.</string>
+    <string name="select_new_pt_ratio">Please select new PT Ratio.</string>
+    <string name="select_new_meter_location">Please select new Meter Location.</string>
+    <string name="select_new_meter_type">Please select new Meter Type.</string>
+    <string name="enter_new_terminal_seal_no">Please enter new Meter Terminal Seal No.</string>
+    <string name="enter_new_meter_box_no">Please enter new Meter Box Seal No.</string>
+    <string name="enter_valid_seal_no">Please enter valid Seal No.</string>
+    <string name="enter_valid_modem_no">Please enter valid Modem No.</string>
+    <string name="access_autharization_failed">You are not authorize to access this app.</string>
+
+
+    <string name="notifications_admin_channel_name" translatable="false">Global channel</string>
+    <string name="notifications_admin_channel_description" translatable="false">Notifications sent from the app admin</string>
+
+
+    <string name="available">Available</string>
+    <string name="un_available">Un-Available</string>
+    <string name="please_attach_old_meter_image1"> Please Attach Old Meter Image1.</string>
+    <string name="please_attach_old_meter_image2"> Please Attach Old Meter Image2.</string>
+    <string name="please_attach_new_meter_image1"> Please Attach New Meter Image1.</string>
+    <string name="please_attach_new_meter_image2"> Please Attach New Meter Image2.</string>
+    <string name="please_scan_assign_qr_code">Please scan Assign QR Code.</string>
+    <string name="please_attach_meter_image">Please Attach Meter Image.</string>
+    <string name="please_attach_dt_location_image">Please Attach DT Location Image.</string>
+    <string name="please_attach_dt_marking_image">Please Attach DT Marking Image.</string>
+
+    <string name="select_new_seal_number">Please Select New Seal Number from List</string>
+    <string name="duplicate_new_seal_number_meter_box">Duplicate Seal No not allowed in Meter Box Seal Number</string>
+    <string name="duplicate_new_seal_number_meter_body">Duplicate Seal No not allowed in Meter Body Seal Number</string>
+    <string name="duplicate_nic_seal_number_body">Duplicate Seal No not allowed in NIC Seal Number</string>
+    <string name="duplicate_new_seal_number_meter_terminal">Duplicate Seal No not allowed in Meter Terminal Seal Number</string>
+    <string name="duplicate_new_seal_number">Duplicate Seal No not allowed</string>
+    <string name="mx_new_seal_number">Please Select Maximum 5 Seal Number from List</string>
+    <string name="feeder_pillar">Feeder Pillar</string>
+    <string name="service_line">Service Line</string>
+    <string name="consumer_status_new">Consumer Status</string>
+    <string name="connection_status">Connection Status</string>
+    <string name="load_enhancement">Load Change</string>
+    <string name="enhancement">Load Declare</string>
+    <string name="load_reduction">Load Reduction</string>
+    <string name="reduction">Reduction</string>
+
+    <string name="sso_name">SSO Name</string>
+    <string name="sso_mobile_no">SSO Mobile No.</string>
+    <string name="sdo_name">SDO Name</string>
+    <string name="sdo_mobile_no">SDO Mobile No.</string>
+    <string name="je_name">JE Name</string>
+    <string name="je_mobile_no">JE Mobile No.</string>
+    <string name="lineman_name">Lineman Name</string>
+    <string name="lineman_mobile_no">Lineman Mobile No.</string>
+    <string name="sign_here">Sign Here...</string>
+    <string name="enter_sso_name">Please enter SSO Name</string>
+    <string name="enter_sso_mobile_no">Please enter SSO Mobile No.</string>
+    <string name="enter_valid_sso_mobile_no">Please enter valid SSO Mobile No.</string>
+    <string name="enter_je_name">Please enter JE Name</string>
+    <string name="enter_valid_je_mobile_no">Please enter valid JE Mobile No.</string>
+    <string name="enter_lineman_name">Please enter Lineman Name</string>
+    <string name="enter_valid_lineman_mobile_no">Please enter valid Lineman Mobile No.</string>
+
+
+    <string name="enter_sdo_name">Please enter SDO Name</string>
+    <string name="enter_sdo_mobile_no">Please enter SDO Mobile No.</string>
+    <string name="enter_valid_sdo_mobile_no">Please enter valid SDO Mobile No.</string>
+    <string name="search_online">Search online</string>
+    <string name="meter_standard_height">Meter Standard Height</string>
+    <string name="glands">Glands</string>
+    <string name="meter_installation">Meter Installation</string>
+    <string name="inside_metallic_closure">Inside Metallic Closure</string>
+    <string name="loose_cable_connection">Loose Cable Connection</string>
+    <string name="mounting_plate_amp_bolts"><![CDATA[Mounting Plate & Bolts]]></string>
+    <string name="meter_tampering">Meter Tampering</string>
+    <string name="labeling_meter_box">Labeling (Meter Box)</string>
+    <string name="meter_image_1">Meter Image 1</string>
+    <string name="meter_image_2">Meter Image 2</string>
+    <string name="sealing_status">Sealing Status</string>
+    <string name="terminal_box">Terminal Box</string>
+    <string name="discom_seal">DISCOM Seal</string>
+    <string name="communication_box">Communication Box</string>
+    <string name="enter_valid_Meter_manufacturing_year">Please enter valid Meter Manufacturing Year</string>
+    <string name="enter_Meter_manufacturing_year">Please enter Meter Manufacturing Year</string>
+    <string name="cable_dressing">Cable Dressing</string>
+    <string name="cable_support">Cable Support</string>
+    <string name="loose_fitting">Loose Fitting</string>
+    <string name="earthing">Earthing</string>
+    <string name="no_image">No Image</string>
+    <string name="meter_manufacturing">Meter Manufacturing</string>
+    <string name="total_visited_feeder_meter_installation_0">Total Visited Feeder Meter Installation: </string>
+    <string name="capture_image">Capture Image</string>
+    <string name="select_meter_box">Please select Meter Box</string>
+    <string name="select_meter_standard_height">Please select Meter Standard Height</string>
+    <string name="select_glands">Please select Glands</string>
+    <string name="select_inside_metallic_closure">Please select Inside Metallic Closure</string>
+    <string name="select_loose_cable_connection">Please select Loose Cable Connection</string>
+    <string name="select_mounting_plates">Please select Mounting Plates and Bolts</string>
+    <string name="select_meter_tempering">Please select Meter Tempering</string>
+    <string name="select_labeling">Please select Labeling</string>
+    <string name="please_capture_image">Please Capture Image</string>
+    <string name="total_visited_feeder_mi_qc">Total Visited Feeder MI QC: </string>
+    <string name="select_cable_dressing">Please select Cable Dressing</string>
+    <string name="select_cable_support">Please select Cable Support</string>
+    <string name="select_loose_fitting">Please select Loose Fitting</string>
+    <string name="select_earthing">Earthing</string>
+    <string name="bus_bar_box">Bus Bar Box</string>
+    <string name="saddles_gap">Saddles Gap</string>
+    <string name="cabel_sag">Cabel Sag</string>
+    <string name="cabel_support">Cabel Support</string>
+    <string name="consumer_details">Consumer Details</string>
+    <string name="occupants_s_name">Occupants\'s Name</string>
+    <string name="occupants_s_mobile_no">Occupants\'s Mobile No.</string>
+    <string name="feeder_name">Feeder Name</string>
+    <string name="account_id">Account ID.</string>
+    <string name="select_meter_sealed">Please select Meter Sealed</string>
+    <string name="capture_selfie_validation">Please Capture Your Selfie</string>
+    <string name="selfie_image">Selfie Image</string>
+    <string name="location_searching">Location Searching...</string>
+    <string name="biometric_authentication">Biometric Authentication</string>
+    <string name="enter_valid_occupant_mobile">Please enter Occupant\'s Mobile Number</string>
+    <string name="respondent_name">Occupant Name</string>
+    <string name="respondent_mobile_no">Occupant Mobile No.</string>
+    <string name="respondent_email">Occupant Email</string>
+    <string name="enter_valid_respondent_name">Please enter valid Occupant Name</string>
+    <string name="enter_valid_respondent_mobile">Please enter valid Occupant Mobile Number</string>
+    <string name="enter_valid_respondent_email">Please enter valid Occupant Email.</string>
+    <string name="capture_location_for_mi">Capture Location For MI</string>
+    <string name="get_location">Get Location</string>
+    <string name="click_on_location_btn">Click on Location Button</string>
+    <string name="enable_gps">Please enable your GPS</string>
+    <string name="respondent_info">Occupant Info</string>
+    <string name="enter_valid_max_demand">Please enter valid Max Demand</string>
+    <string name="assign_meter_from_warehouse">Please assign meter from Warehouse</string>
+    <string name="other_meterstatus">App MRI Not Done, Please choose correct Meter Status</string>
+    <string name="duplicate_seal_number_meter_box_new">Duplicate Seal No not allowed in  Meter Box Seal Number</string>
+    <string name="duplicate_seal_number_nic_new">Duplicate Seal No not allowed in  Nic Seal Number</string>
+    <string name="duplicate_seal_number_reset_new">Duplicate Seal No not allowed in  Meter Reset Button Seal Number</string>
+    <string name="mx_new_box_seal_number_complaint">Please Select Maximum 4 New Meter Box Seal Number from List</string>
+    <string name="mx_new_box_seal_number_2">Please Select Maximum 2 New Meter Box Seal Number from List</string>
+    <string name="mx_new_nic_seal_number_complaint">Please Select Maximum 1 New Nic Seal Number from List</string>
+    <string name="mx_new_reset_seal_number_complaint">Please Select Maximum 1 New Meter Reset Button Seal Number from List</string>
+    <string name="mx_new_terminal_seal_number_complaint">Please Select Maximum 2 New Meter Terminal Seal Number from List</string>
+    <string name="mx_new_body_seal_number_complaint">Please Select Maximum 2 New Meter Body Seal Number from List</string>
+    <string name="mx_new_body_seal_number_manual">Please Select Maximum 2 New Meter Body Seal Number</string>
+    <string name="select_new_box_seal_number">Please Select New Meter Box Seal Number from List</string>
+    <string name="select_new_nic_seal_number">Please Select New Nic Seal Number from List</string>
+    <string name="select_new_terminal_seal_number">Please Select New Meter Terminal Seal Number from List</string>
+    <string name="select_new_body_seal_number">Please Select New Meter Body Seal Number from List</string>
+    <string name="select_reset_seal_number_from_list">Please Select Meter Reset Button Seal Number from List</string>
+    <string name="duplicate_seal_number_meter_terminal_new">Duplicate Seal No not allowed in New Meter Terminal Seal Number</string>
+    <string name="send">Send</string>
+    <string name="sanctioned_load">Sanctioned Load</string>
+    <string name="whatsapp_not_available">WhatsApp not istalled in this device.</string>
+    <string name="joints_in_service_cable">Joints In Service Cable</string>
+    <string name="cable_terminated_from">Cable Terminated From</string>
+    <string name="meter_seal_status">Meter Seal Status</string>
+    <string name="billing_type">Billing Type</string>
+    <string name="case_type">Case</string>
+    <string name="error_code">Error Code</string>
+    <string name="old_cable_details">Old Cable Details</string>
+    <string name="new_cable_details">New Cable Details</string>
+    <string name="cable_marking">Cable Marking</string>
+    <string name="please_enter_occupantname">Please enter Occupant Name</string>
+    <string name="dt_categorey">DT Category</string>
+    <string name="pt_make">PT Make</string>
+    <string name="ct_make">CT Make</string>
+    <string name="nic_seal_no">Nic Seal No.</string>
+
+    <string name="storage_realated_permissions">Storage Permissions</string>
+    <string name="storage_permissions_is_requried">Storage Permissions are required to capture image, store the image through your mobile camera and lets you easily access those on your phone. These permissions also enable the user to access attendance feature as Check-In and Check-Out and also help them to upload data on server when required.</string>
+    <string name="location_realated_permissions">Location Permissions</string>
+    <string name="location_permissions_is_requried_on_attendence_">Location Permissions are required to use the Check-In and Check-Out feature while marking the attendance. These permissions also let your mobile to set the accurate location of the employees when they mark their attendance. This can ensure us to track the current location of any employee throughout the day and help you to locate them.</string>
+    <string name="user_personal_information_realated_permssions">User Personal Information Permissions</string>
+    <string name="user_personal_information_permissions_is">User personal Information permissions are required to log into your social media accounts via your e-mail. These permissions also let any user to handle the sensitive information as their e-mail id, passwords and PIN. In case any user forget their password or needs to change their password they need to send the OTP to generate or reset the password. </string>
+    <string name="camera_permssions">Camera Permissions</string>
+    <string name="no_qr_found">NO QR CODE FOUND</string>
+    <string name="camera_permissions_is_requried">Camera permissions are required to access your mobile camera to open and capturing the image while using this application.</string>
+    <string name="privacy_policy">Read Term &amp; Condition<i><font color="#BD4328"> Privacy Policy</font></i></string>
+
+    <string name="select_terminal_seal_from_list">Please Select Meter Terminal Seal Number from List</string>
+    <string name="select_box_seal_from_list">Please Select Meter Box Seal Number from List</string>
+    <string name="select_body_seal_from_list">Please Select Meter Body Seal Number from List</string>
+    <string name="select_nic_seal_from_list">Please Select NIC Seal Number from List</string>
+
+    <string name="manualreason">Please Select Manual Reason From General Remarks.</string>
+    <string name="generalremark">Please Select General Remarks</string>
+
+    <string name="please_enter_other_dt_capacity">Please enter Other DT Capacity.</string>
+    <string name="please_enter_valid_other_dt_capacity">Please enter valid Other DT Capacity.</string>
+    <string name="select_dt_capacity">Please select DT Capacity.</string>
+    <string name="select_region">Please select Region.</string>
+    <string name="select_circle">Please select Circle.</string>
+    <string name="select_zone">Please select Zone.</string>
+    <string name="dt_capacity_prev">DT Capacity</string>
+    <string name="other_dt_capacity">Other DT Capacity</string>
+    <string name="other_pt_status">Other PT Status</string>
+    <string name="other_ct_status">Other CT Status</string>
+    <string name="select_area_type">Please Select Area Type</string>
+    <string name="select_dc">Please select DC.</string>
+    <string name="ct_box_condition">CT Box Condition</string>
+    <string name="other_ct_box_condition">Other CT Box Condition</string>
+    <string name="please_enter_other_meter_make_name">Please enter Other Meter Make Name.</string>
+    <string name="other_mounting_arrangements">Other Mounting Arrangements</string>
+    <string name="load_unit">Load Unit</string>
+
+    <string name="zone">Zone</string>
+    <string name="circle">Circle</string>
+    <string name="division_name">Division</string>
+    <string name="sub_division_name">Sub-Division</string>
+
+
+    <string name="default_dt_name">DT Name</string>
+    <string name="default_dt_capacity">DT Capacity </string>
+    <string name="dafault_dt_position">DT Position</string>
+    <string name="dafult_dt_category">DT Category </string>
+    <string name="dafult_sub_station_name">33/11KV Substation </string>
+    <string name="dafult_feeder">Feeder Name </string>
+    <string name="modem_type">Modem Type</string>
+    <string name="modem_serial_no">Modem Serial No.</string>
+    <string name="modem_terminal_no">Modem Terminal Seal No.</string>
+
+    <string name="enter_dt_code_name_meter_no">Enter DT Code / Meter Number.</string>
+    <string name="enter_feeder_code_name_meter_no">Enter Feeder Code / Meter Number.</string>
+    <string name="dtr_not_indexed">DTR Not Indexed</string>
+    <string name="no_of_lt_circuits">No. of Ckt Runs</string>
+    <string name="amr">Modem Availability</string>
+    <string name="select_ct_condition">Please select CT BOX Condition.</string>
+    <string name="select_meter_box_status">Please select Meter Box Status.</string>
+    <string name="select_ct_condition_others">Please enter Other CT BOX Condition.</string>
+    <string name="enter_no_of_circuit_runs">Please enter No. of Ckt Runs.</string>
+    <string name="extra_cable_require_validation">Please Select Extra Cable Require.</string>
+    <string name="select_dt_category">Please select DT Category.</string>
+    <string name="dt_code">DT Code</string>
+    <string name="dt_code_new">DT Code <font color='#f32013'>*</font></string>
+    <string name="dt_sno_new">DT S.NO <font color='#f32013'>*</font></string>
+    <string name="dt_name">DT Name <font color='#f32013'>*</font></string>
+    <string name="dt_name_prev">DT Name</string>
+    <string name="dt_address">DT Address <font color='#f32013'>*</font></string>
+    <string name="dt_address_prev">DT Address </string>
+    <string name="dt_capacity">DT Capacity <font color='#f32013'>*</font></string>
+    <string name="dt_position">DT Position <font color='#f32013'>*</font></string>
+    <string name="dt_position_prev">DT Position</string>
+    <string name="dt_category">DT Category <font color='#f32013'>*</font></string>
+    <string name="sub_station_name">33/11KV Substation <font color='#f32013'>*</font></string>
+    <string name="sub_station_name_prev">33/11KV Substation </string>
+    <string name="feeder">Feeder Name <font color='#f32013'>*</font></string>
+    <string name="area_type">Area Type <font color='#f32013'>*</font></string>
+    <string name="area_type_prev">Area Type </string>
+
+    <string name="default_zone">Region <font color='#f32013'>*</font></string>
+    <string name="default_circle">Circle <font color='#f32013'>*</font></string>
+    <string name="default_division_name">Division <font color='#f32013'>*</font></string>
+    <string name="default_sub_division_name">Zone <font color='#f32013'>*</font></string>
+    <string name="default_dc">DC <font color='#f32013'>*</font></string>
+    <string name="default_zone_prev">Region</string>
+    <string name="default_circle_prev">Circle</string>
+    <string name="default_division_name_prev">Division </string>
+    <string name="default_sub_division_name_prev">Zone</string>
+    <string name="default_dc_prev">DC</string>
+
+    <string name="meter_number">Meter Serial No. <font color='#f32013'>*</font></string>
+    <string name="meter_make_name">Meter Make <font color='#f32013'>*</font></string>
+    <string name="ct_status_name">CT Status <font color='#f32013'>*</font></string>
+    <string name="ct_box_condition_name">CT Box Condition <font color='#f32013'>*</font></string>
+    <string name="extra_cable_require_in_app">Extra Cable Require <font color='#f32013'>*</font></string>
+    <string name="no_of_lt_circuits_require">No. of Ckt Runs <font color='#f32013'>*</font></string>
+    <string name="meter_status_name">Meter Status <font color='#f32013'>*</font></string>
+    <string name="modem_availability">Modem Availability  <font color='#f32013'>*</font></string>
+    <string name="modem_availability_prev">Modem Availability  </string>
+    <string name="final_meter_reading_kwh_in_app">Reading (KWH)  <font color='#f32013'>*</font></string>
+    <string name="final_meter_reading_kvah_in_app">Reading (KVAH)  <font color='#f32013'>*</font></string>
+    <string name="max_demand_kw_in_app">Max Demand (KW)  <font color='#f32013'>*</font></string>
+    <string name="max_demand_kva_in_app">Max Demand (KVA)  <font color='#f32013'>*</font></string>
+
+    <string name="app_r_phase">R Phase <font color='#f32013'>*</font></string>
+    <string name="app_y_phase">Y Phase <font color='#f32013'>*</font></string>
+    <string name="app_b_phase">B Phase  <font color='#f32013'>*</font></string>
+
+    <string name="enter_r_phase">Please enter R Phase</string>
+    <string name="enter_y_phase">Please enter Y Phase</string>
+    <string name="enter_b_phase">Please enter B Phase</string>
+
+    <string name="select_ct_status_others">Please enter Other CT Status.</string>
+    <string name="please_attach_lt_circuit_image">Please Attach LT Circuit Runs Image.</string>
+    <string name="other_ct_status_in_app">Other CT Status <font color='#f32013'>*</font></string>
+    <string name="phase_type_name">Phase Type <font color='#f32013'>*</font></string>
+    <string name="meter_box_status_name">Meter Box Status<font color='#f32013'>*</font></string>
+    <string name="new_meter_serial_no_man">New Meter Serial No.<font color='#f32013'>*</font></string>
+    <string name="meter_manufarturing_man">MFG Year<font color='#f32013'>*</font></string>
+    <string name="meter_mf_name">MF <font color='#f32013'>*</font></string>
+    <string name="meter_type_man">Meter Type<font color='#f32013'>*</font></string>
+    <string name="meter_class_man">Meter Class<font color='#f32013'>*</font></string>
+    <string name="ct_ratio_man">CT Ratio<font color='#f32013'>*</font></string>
+    <string name="meter_terminal_seal_no_man">Meter Terminal Seal No.<font color='#f32013'>*</font></string>
+    <string name="meter_box_seal_no_man">Meter Box Seal No.<font color='#f32013'>*</font></string>
+    <string name="modem_no_prev">Modem No.</string>
+    <string name="modem_make_prev">Modem Make</string>
+    <string name="model_no_prev">Model No.</string>
+
+    <string name="update">Update</string>
+    <string name="please_enter_meter_mf">Please Enter Meter MF.</string>
+    <string name="select_modem_sim_availablity">Please select Modem Sim Availablity</string>
+    <string name="please_add_old_Accessories">Please Select Old Meter Accessories and Press Add Item</string>
+    <string name="please_add_new_Accessories">Please Select New Meter Accessories and Press Add Item</string>
+    <string name="modem_sim_available">Sim Availablity <font color='#f32013'>*</font></string>
+    <string name="control_voltage">Control Voltage <font color='#f32013'>*</font></string>
+    <string name="control_voltage_prev">Control Voltage</string>
+    <string name="modem_type_man">Modem Type <font color='#f32013'>*</font></string>
+    <string name="modem_serial_no_man">Modem Serial No. <font color='#f32013'>*</font></string>
+    <string name="please_select_control_voltage">Please select Control Voltage</string>
+    <string name="modem_sim_available_prev">Sim Availablity</string>
+    <string name="enter_model_no">Please enter Model No.</string>
+    <string name="enter_modem_serial_no">Please enter Modem Serial No.</string>
+    <string name="other_dt_capacity_in_app">Other DT Capacity <font color='#f32013'>*</font></string>
+    <string name="select_feeder_category">Please select Feeder Category</string>
+    <string name="select_modem_type">Please select Modem Type</string>
+    <string name="item_name_man">Item Name <font color='#f32013'>*</font></string>
+    <string name="item_type_man">Item Type <font color='#f32013'>*</font></string>
+    <string name="enter_item_details_man">Enter Quantity/Length <font color='#f32013'>*</font></string>
+    <string name="other_feeder_category">Other Feeder Category <font color='#f32013'>*</font></string>
+    <string name="other_feeder_category_prev">Other Feeder Category Prev</string>
+    <string name="other_meter_make_man">Other Meter Make <font color='#f32013'>*</font></string>
+    <string name="other_modem_make">Other Modem Make <font color='#f32013'>*</font></string>
+    <string name="other_conrol_voltage">Other Control Voltage <font color='#f32013'>*</font></string>
+    <string name="other_conrol_voltage_prev">Other Control Voltage </string>
+    <string name="enter_other_conrol_voltage">Please enter Other Control Voltage </string>
+    <string name="enter_other_feeder_category">Please enter Other Feeder Category </string>
+    <string name="enter_other_modem_make">Please enter Other Modem Make </string>
+    <string name="meter_commissioning_not_success">Not Ok (Phase Disassociation) </string>
+    <string name="region">Region</string>
+    <string name="dc">Dc</string>
+    <string name="new_modem_details">New Modem Details</string>
+    <string name="modem_ping_status">Modem Ping Status</string>
+
+
+    <string name="consumer_name_man">Consumer Name <font color='#f32013'>*</font></string>
+    <string name="mobile_number_man">Mobile No. <font color='#f32013'>*</font></string>
+    <string name="consumer_address_man">Consumer Address <font color='#f32013'>*</font></string>
+    <string name="landmark_man">Landmark <font color='#f32013'>*</font></string>
+    <string name="service_line_man">Service Line <font color='#f32013'>*</font></string>
+    <string name="pole_no_man">Pole No. <font color='#f32013'>*</font></string>
+    <string name="feeder_pillar_man">Feeder Pillar <font color='#f32013'>*</font></string>
+    <string name="connection_status_man">Connection Status <font color='#f32013'>*</font></string>
+    <string name="consumer_type_man">Consumer Type <font color='#f32013'>*</font></string>
+    <string name="optical_port">Optical Port</string>
+    <string name="meter_height_man">Meter Height (Ft.) <font color='#f32013'>*</font></string>
+    <string name="meter_reading_in_kwh_man">Meter Reading (KWH) <font color='#f32013'>*</font></string>
+    <string name="pole_type_man">Pole Type <font color='#f32013'>*</font></string>
+    <string name="meter_sealed_man">Meter Sealed <font color='#f32013'>*</font></string>
+    <string name="meter_intall_in_metelic_box">Meter Installed in Metallic Enclosed <font color='#f32013'>*</font></string>
+    <string name="service_cable_status_man">Service Cable Status <font color='#f32013'>*</font></string>
+    <string name="service_cable_type">Service Cable Type</string>
+    <string name="service_cable_status">Service Cable Status</string>
+    <string name="service_cable_length">Service Cable Length (Meter)</string>
+    <string name="service_cable_size">Service Cable Size (Square mm)</string>
+    <string name="enter_pole_no_or_feeder_pillar">Please enter either Pole No. or Feeder Pillar</string>
+    <string name="select_consumer_type">Please select Consumer Type</string>
+    <string name="select_service_line">Please select Service Line</string>
+    <string name="select_pole_type">Please select Pole Type</string>
+    <string name="enter_meter_height">Please enter Meter Height</string>
+    <string name="select_service_cable_status">Please select Service Cable Status.</string>
+    <string name="old_meter_serial_no_man">Old Meter Serial No. <font color='#f32013'>*</font></string>
+    <string name="old_meter_make_man">Old Meter Make <font color='#f32013'>*</font></string>
+    <string name="old_phase_type_man">Old Phase Type <font color='#f32013'>*</font></string>
+    <string name="old_meter_type_man">Old Meter Type <font color='#f32013'>*</font></string>
+    <string name="meter_change_remark">Meter Change Remark</string>
+    <string name="nic_seal_no_man">Nic Seal No.<font color='#f32013'>*</font></string>
+    <string name="reset_button_seal_no_man">Reset Button Seal No.<font color='#f32013'>*</font></string>
+    <string name="reset_button_seal_no">Reset Button Seal No.</string>
+    <string name="meter_seal_body_man">Meter Body Seal No.<font color='#f32013'>*</font></string>
+    <string name="modem_body_seal_man">Modem Body Seal No.<font color='#f32013'>*</font></string>
+    <string name="modem_body_seal">Modem Body Seal No.</string>
+    <string name="modem_sim_seal_man">Modem Sim Seal No.<font color='#f32013'>*</font></string>
+    <string name="modem_sim_seal">Modem Sim Seal No.</string>
+    <string name="enter_modem_body_seal_no">Please enter Modem Body Seal No.</string>
+    <string name="duplicate_seal_number_modem_body">Duplicate Seal No not allowed in  Modem Body Seal Number</string>
+    <string name="duplicate_seal_number_meter_body">Duplicate Seal No not allowed in  Meter Body Seal Number</string>
+    <string name="mx_modem_body_seal_number">Please Select Maximum 2 Modem Body Seal Number from List</string>
+    <string name="select_modem_body_seal_number">Please Select Modem Body Seal Number from List</string>
+
+    <string name="enter_modem_seal_no">Please enter Modem Sim Seal No.</string>
+    <string name="duplicate_seal_number_meter_modem_seal">Duplicate Seal No not allowed in Modem Sim Seal Number</string>
+    <string name="mx_modem_seal_number">Please Select Maximum 2 Modem Sim Seal Number from List</string>
+    <string name="select_modem_seal_number">Please Select Modem Sim Seal Number from List</string>
+    <string name="enter_dt_code_name_meter_no_qr">Enter DT Code / Meter Number / QR Code.</string>
+    <string name="other_old_meter_make_name_man">Other Old Meter Make Name<font color='#f32013'>*</font></string>
+    <string name="please_click_old_meter_seal_image">Please Attach Old Meter Seal Image.</string>
+    <string name="please_click_consumer_bill_image">Please Attach Consumer Bill Image.</string>
+    <string name="mx_new_nic_seal_number">Please Select Maximum 1 New Nic Seal Number from List</string>
+    <string name="mx_new_box_seal_number_consumer">Please Select Maximum 2 New Meter Box Seal Number from List</string>
+    <string name="please_click_nic_seal_image">Please Attach Nic Seal Image.</string>
+    <string name="please_click_meter_body_seal_image">Please Attach Meter Body Seal Image.</string>
+    <string name="enter_old_max_demand_kw">Please enter old Max Demand(KW).</string>
+    <string name="please_select_consumer_status">Please select Consumer Status.</string>
+    <string name="please_select_connection_status">Please select Connection Status.</string>
+
+    <string name="enter_meter_box_seal_no1">Please enter Meter Box Seal No. 1</string>
+    <string name="enter_meter_box_seal_no2">Please enter Meter Box Seal No. 2</string>
+    <string name="duplicate_seal_number_meter_box_new1">Duplicate Seal No not allowed in  Meter Box Seal Number 1</string>
+    <string name="duplicate_seal_number_meter_box_new2">Duplicate Seal No not allowed in  Meter Box Seal Number 2</string>
+    <string name="mx_new_box_seal_number_consumer1">Please Select Maximum 1 New Meter Box Seal Number 1 from List</string>
+    <string name="mx_new_box_seal_number_consumer2">Please Select Maximum 1 New Meter Box Seal Number 2 from List</string>
+    <string name="select_new_box_seal_number1">Please Select New Meter Box Seal Number 1 from List</string>
+    <string name="select_new_box_seal_number2">Please Select New Meter Box Seal Number 2 from List</string>
+    <string name="meter_box_seal_no1">Meter Box Seal No. 1</string>
+    <string name="meter_box_seal_no2">Meter Box Seal No. 2</string>
+    <string name="meter_box_seal_no_man1">Meter Box Seal No. 1 <font color='#f32013'>*</font></string>
+    <string name="meter_box_seal_no_man2">Meter Box Seal No. 2 <font color='#f32013'>*</font></string>
+    <string name="nic_no">Nic No.</string>
+    <string name="nic_no_man">Nic No. <font color='#f32013'>*</font></string>
+    <string name="enter_nic_no">Please enter Nic No. </string>
+    <string name="please_select">Please select </string>
+    <string name="please_capture_ocr_kwh">Please capture OCR KWH Image </string>
+    <string name="please_capture_ocr_kvah">Please capture OCR KVAH Image </string>
+
+
+    <string name="other_ct_box_condition_man">Other CT Box Condition <font color='#f32013'>*</font></string>
+    <string name="please_capture_lat_long">Location not Captured, Please try again </string>
+    <string name="meter_entry">Please Download Data again and Fill Meter Entry.</string>
+    <string name="meter_installation_table">Data not save in Meter Installation Table.</string>
+    <string name="meter_box_man">Meter Box <font color='#f32013'>*</font></string>
+    <string name="meter_box_no_man">Meter Box No. <font color='#f32013'>*</font></string>
+    <string name="enter_meter_box">Please enter Meter Box No.</string>
+    <string name="select_change_remark">Please select Meter Change Remark.</string>
+    <string name="please_capture_ocrnew_kwh">Please capture new  OCR  KWH Image.</string>
+    <string name="please_capture_ocrnew_kvah">Please capture new OCR KVAH Image</string>
+    <string name="please_capture_ocr_old_kwh">Please capture Old Meter OCR KWH Image </string>
+    <string name="please_capture_ocr_old_kvah">Please capture Old Meter OCR KVAH Image </string>
+    <string name="new_meter_make_man">New Meter Make <font color='#f32013'>*</font></string>
+    <string name="search_meter">Search Meter</string>
+    <string name="enter_meter_number">Enter Meter Number <font color='#f32013'>*</font></string>
+    <string name="reading_scm">Reading (SCM) <font color='#f32013'>*</font></string>
+    <string name="enter_reading_scm">Please enter Reading(SCM).</string>
+    <string name="enter_valid_reading_scm">Please enter Reading(SCM).</string>
+    <string name="please_attach_meter_image1">Please Attach Meter Image 1.</string>
+    <string name="please_attach_meter_image2">Please Attach Meter Image 2.</string>
+    <string name="data_not_saved">Data is not Saved in Meter Survey Table</string>
+    <string name="scan_qr_code_barcode">Scan QR Code or Barcode</string>
+    <string name="meter_scm_unit">Meter SCM (Unit)</string>
+    <string name="please_enter_meter_scm_unit">Please enter Meter SCM (Unit).</string>
+
+
+    <string name="consumer_sub_category">Consumer Sub Category <font color='#f32013'>*</font></string>
+    <string name="other_consumer_sub_category">Other Consumer Sub Category <font color='#f32013'>*</font></string>
+    <string name="consumer_supply_voltage">Supply Voltage Level <font color='#f32013'>*</font></string>
+    <string name="consumer_flate_rate">Flat Rate </string>
+    <string name="consumer_tariff_code">Tariff Code </string>
+    <string name="select_consumer_sub_category_type">Please select Consumer Sub Category </string>
+    <string name="please_enter_other_consumer_sub_category_type">Please enter other Consumer Sub Category </string>
+    <string name="select_supply_voltage">Please select Supply Voltage Level </string>
+    <string name="select_tariff">Please select Tariff Code</string>
+    <string name="select_flate_rate">Please select Flate Rate</string>
+    <string name="ct_installed">CT Installed</string>
+    <string name="lugs_available">Lugs Available</string>
+    <string name="other_Ct_ratio">Other Ct Ratio <font color='#f32013'>*</font></string>
+    <string name="select_ct_installed">Please enabled CT Installed</string>
+    <string name="select_Ct_ratio">Please select CT Ratio</string>
+    <string name="please_enter_other_ct_ratio">Please enter other CT Ratio </string>
+    <string name="select_lugs_Available">Please select Lugs Available</string>
+    <string name="output_service_cable_length"> O/P Service Cable Length <font color='#f32013'>*</font></string>
+    <string name="output_service_cable_size">  O/P Service Cable Size <font color='#f32013'>*</font></string>
+    <string name="other_output_service_cable_length">Other O/P Service Cable Length <font color='#f32013'>*</font></string>
+    <string name="select_output_service_cable_size">Please select O/P  Service Cable size</string>
+    <string name="select_other_output_service_cable_size">Please enter other O/P Service Cable size</string>
+    <string name="select_modem_availablity"> Please select Modem Availablity</string>
+    <string name="please_enter_output_service_cable_size">Please enter O/P Service Cable size</string>
+    <string name="other_tariff">Other Tariff Code</string>
+    <string name="please_enter_other_tariff">Please enter other Tariff Code</string>
+    <string name="consumer_father_name">Father\'s Name</string>
+    <string name="net_meter">Net Meter</string>
+    <string name="select_connection_type">Please select Connection Type</string>
+    <string name="consumer_parentage">Parentage</string>
+    <string name="please_enter_consumer_parentage">Please enter Parentage</string>
+    <string name="meter_height_validation"> Meter Height should be in between 1 to 12</string>
+    <string name="please_enter_input_service_cable_length">Please enter I/P Service Cable Length</string>
+    <string name="select_service_cable_size">Please select I/P Service Cable size</string>
+    <string name="new_ct_installed">New CT Installed</string>
+    <string name="new_lugs_available">New Lugs Available</string>
+    <string name="meter_box_type">Meter Box Type</string>
+    <string name="select_meter_box_type">Please select Meter Box Type</string>
+
+
+    <string name="select_consumer_category_man">Please select Consumer Category </string>
+    <string name="select_load_unit">Please select Load Unit</string>
+    <string name="please_enter_sanctioned_load">Please enter Sanctioned Load</string>
+    <string name="please_enter_output_service_cable_length">Please enter O/P Service Cable Length</string>
+    <string name="please_enter_correct_mfg_year">Please Enter Correct MFG Year</string>
+    <string name="meter_survey_already_completed">Meter Survey Already Completed</string>
+    <string name="enter_valid_dt_code">Please enter Valid DT Code.</string>
+    <string name="no_of_meters">No. of Meters <font color='#f32013'>*</font></string>
+    <string name="enter_no_of_meters">Please enter No. of Meters.</string>
+    <string name="enter_no_of_meters_between">Please enter No. of Meters between 1 to 4</string>
+    <string name="enter_dt_code_lbl">Enter DT Code <font color='#f32013'>*</font></string>
+    <string name="enter_meter_no_lbl">Enter Meter No.<font color='#f32013'>*</font></string>
+    <string name="preview_image">Preview Image</string>
+    <string name="move_Search_meter">Move to Next Meter</string>
+    <string name="meter_installation_already_completed">Meter Installation Already Completed</string>
+    <string name="i_p_servie_cable_use">Old I/P Service Cable Used</string>
+    <string name="o_p_servie_cable_use">Old O/P Service Cable Used</string>
+    <string name="service_cable_length_man">I/P Service Cable Length  <font color='#f32013'>*</font></string>
+    <string name="service_cable_size_man">I/P Service Cable Size  <font color='#f32013'>*</font></string>
+    <string name="consumer_status_new_man">Consumer Status <font color='#f32013'>*</font> </string>
+    <string name="meter_mf_man">Meter MF <font color='#f32013'>*</font></string>
+    <string name="power_factor">Power Factor</string>
+
+    <string name="connection_type_man">Connection Type <font color='#f32013'>*</font> </string>
+    <string name="consumer_category_man">Consumer Category <font color='#f32013'>*</font> </string>
+
+    <string name="consumer_sub_category_prev">Consumer Sub Category </string>
+    <string name="other_consumer_sub_category_prev">Other Consumer Sub Category </string>
+    <string name="consumer_supply_voltage_prev">Supply Voltage Level </string>
+
+    <string name="output_service_cable_length_prev"> O/P Service Cable Length </string>
+    <string name="output_service_cable_size_prev">  O/P Service Cable Size </string>
+    <string name="other_output_service_cable_length_prev">Other O/P Service Cable Length </string>
+    <string name="load_unit_man">Load Unit <font color='#f32013'>*</font> </string>
+    <string name="sanctioned_load_man">Sanctioned Load  <font color='#f32013'>*</font></string>
+    <string name="enter_correct_initial_reading">Initial Reading (KWH) should not be greater than Initial Reading (KVAH). </string>
+
+    <string name="other_Ct_ratio_prev">Other Ct Ratio </string>
+    <string name="dt_owner">DT Owner <font color='#f32013'>*</font></string>
+    <string name="dtr_type">DTR Type <font color='#f32013'>*</font></string>
+    <string name="dt_condition">DT Condition <font color='#f32013'>*</font></string>
+    <string name="dt_supply_essential">DT Supply Essential</string>
+    <string name="lt_cable_condition">LT Cable Condition <font color='#f32013'>*</font></string>
+    <string name="mcb_installed">MCB Installed</string>
+    <string name="modem_antenna">Modem Antenna</string>
+    <string name="select_dtr_type">Please select DTR Type </string>
+    <string name="select_dt_owner">Please select DT Owner </string>
+    <string name="select_dt_condition">Please select DT Condition </string>
+    <string name="select_meter_box_type_condition">Please select Meter Box Type </string>
+    <string name="select_lt_cable_condition">Please select LT Cable Condition </string>
+    <string name="meter_box_type_man">Meter Box Type <font color='#f32013'>*</font></string>
+    <string name="cable_status_man">Cable Status  <font color='#f32013'>*</font></string>
+    <string name="cable_size_man">Cable Size (Square mm) <font color='#f32013'>*</font></string>
+    <string name="cable_length_man">Cable Length (Meter) <font color='#f32013'>*</font></string>
+    <string name="enter_cable_size_man">Please enter Cable Size (Square mm) </string>
+    <string name="enter_cable_length_man">Please enter Cable Length (Meter) </string>
+
+    <string name="cable_condition">Cable Condition <font color='#f32013'>*</font></string>
+    <string name="cable_run">Cable Run <font color='#f32013'>*</font></string>
+    <string name="pt_installed">PT Installed</string>
+    <string name="select_cable_condition">Please selelct Cable Condition</string>
+    <string name="select_cable_size">Please selelct Cable Size (Square mm) </string>
+    <string name="please_enter_cable_length">Please enter Cable Length</string>
+    <string name="please_enter_cable_run">Please enter Cable Run </string>
+    <string name="please_attach_cable_image">Please Attach Cable Image </string>
+    <string name="please_enter_mf">Please enter MF </string>
+    <string name="cable_details">Cable Details</string>
+    <string name="account_no_man">Account No. <font color='#f32013'>*</font></string>
+    <string name="enter_account_no">Please enter Account No. </string>
+
+    <string name="pole_meter_no">Pole Meter No. </string>
+    <string name="please_enterpole_meter_no">Please enter Pole Meter No. </string>
+    <string name="cable_run_validation"> Cable Run should be in  between 1 to 6</string>
+    <string name="ct_pt_installed">CT-PT Installed</string>
+    <string name="ct_pt_ratio_man">CT-PT Ratio<font color='#f32013'>*</font></string>
+    <string name="select_ct_pt_ratio">Please select CT-PT Ratio.</string>
+    <string name="mx_new_box_seal_number_feeder">Please Select Maximum 3 New Meter Box Seal Number from List</string>
+    <string name="old_meter_retained">Old Meter Retained</string>
+    <string name="mx_new_box_3_seal_number_feeder">Please Select Minimum 2 and Maximun 3 New Meter Box Seal Number from List</string>
+    <string name="mx_new_terminal_seal_number_feeder">Please Select Maximum 1 New Meter Terminal Seal Number from List</string>
+    <string name="enter_meter_box_seal_no_feeder">Please enter Meter Box Seal No. </string>
+    <string name="select_sim_operator">Please select Sim Operator.</string>
+    <string name="enter_imei_no">Please enter IMEI No.</string>
+    <string name="operator_sim_man">Sim Operator <font color='#f32013'>*</font> </string>
+    <string name="imei_no_man">IMEI No.<font color='#f32013'>*</font> </string>
+    <string name="sim_card_no_man">Sim Card No.<font color='#f32013'>*</font> </string>
+    <string name="select_meter_change">Please select Meter Change from Meter Change Remark List.</string>
+    <string name="select_meter_no_mismatch">Please select Meter No Mismatch from Meter Change Remark List.</string>
+    <string name="mcb_installed_man">MCB Installed <font color='#f32013'>*</font></string>
+    <string name="lugs_available_man">Lugs Available <font color='#f32013'>*</font></string>
+    <string name="modem_availability_man">Modem Availability <font color='#f32013'>*</font> </string>
+    <string name="modem_antenna_man">Modem Antenna <font color='#f32013'>*</font> </string>
+    <string name="address_man">Address <font color='#f32013'>*</font></string>
+    <string name="enter_feeder_address">Please enter Feeder Address</string>
+    <string name="meter_position">Meter Position <font color='#f32013'>*</font></string>
+    <string name="please_attach_dt_image1">Please Attach DT Image1.</string>
+    <string name="please_attach_dt_image2">Please Attach DT Image2.</string>
+    <string name="please_attach_cable_image1">Please Attach Cable Image1.</string>
+    <string name="please_attach_cable_image2">Please Attach Meter Image2.</string>
+    <string name="oldSealNo4">Meter Terminal Seal No. </string>
+    <string name="antenna_avail">Antenna Available </string>
+    <string name="syncErrorLogMessage">Please Sync Out Pending Data from Sync Error Log Page. </string>
+    <string name="meter_box_seal_no1_man">Meter Box Seal No.1 <font color='#f32013'>*</font></string>
+    <string name="duplicate_seal_number_meter_box1_new">Duplicate Seal No not allowed in  Meter Box Seal Number 1</string>
+    <string name="mx_new_box_seal1_number_2">Please Select Maximum 1 New Meter Box Seal Number 1 from List</string>
+    <string name="duplicate_seal_number_meter_box2_new">Duplicate Seal No not allowed in  Meter Box Seal Number 2</string>
+    <string name="mx_new_box_seal2_number_2">Please Select Maximum 1 New Meter Box Seal Number 2 from List</string>
+    <string name="please_enter_meter_box_no">Please select Meter Box No</string>
+    <string name="please_enter_meter_box_no_list">Please select Meter Box No from List</string>
+    <string name="new_nic_seal_no">New Nic Seal No.<font color='#f32013'>*</font> </string>
+    <string name="old_nic_seal_no">Old Nic Seal No.<font color='#f32013'>*</font> </string>
+    <string name="voltage_r">Voltage R</string>
+    <string name="voltage_y">Voltage Y</string>
+    <string name="voltage_b">Voltage B</string>
+    <string name="current_r">Current R</string>
+    <string name="current_b">Current B</string>
+    <string name="current_y">Current Y</string>
+
+    <string name="attributable_to_cspdcl">Attributable To </string>
+    <string name="jir_sign">JIR Sign </string>
+    <string name="jr_reason">Reason </string>
+    <string name="select_attributable_to_cspdcl">Please select Attributable To</string>
+    <string name="select_jir_sign">Please select JIR Sign</string>
+    <string name="please_click_protocol_image">Please Attach Protocol Image.</string>
+    <string name="please_click_jir_image">Please Attach JIR Image.</string>
+
+    <string name="please_enter_voltage_r">Please enter Voltage R</string>
+    <string name="please_enter_voltage_y">Please enter Voltage Y</string>
+    <string name="please_enter_voltage_b">Please enter Voltage B</string>
+    <string name="please_enter_current_r">Please enter Current R</string>
+    <string name="please_enter_current_y">Please enter Current Y</string>
+    <string name="please_enter_current_b">Please enter Current B</string>
+    <string name="mobile_date_issue">Your Mobile Date is Incorrect</string>
+
+    <string name="new_voltage_r">Voltage R <font color='#f32013'>*</font></string>
+    <string name="new_voltage_y">Voltage Y <font color='#f32013'>*</font></string>
+    <string name="new_voltage_b">Voltage B <font color='#f32013'>*</font></string>
+    <string name="new_current_r">Current R <font color='#f32013'>*</font></string>
+    <string name="new_current_b">Current B <font color='#f32013'>*</font></string>
+    <string name="new_current_y">Current Y <font color='#f32013'>*</font></string>
+
+    <string name="select_meter_replacement_reason">Please select Reason</string>
+    <string name="old_terminal_seal_no">Old Terminal Seal No.</string>
+    <string name="new_terminal_seal_no">New Terminal Seal No.</string>
+    <string name="old_box_seal_no1">Old Box Seal No.1 <font color='#f32013'>*</font></string>
+    <string name="new_box_seal_no1">New Box Seal No.1 <font color='#f32013'>*</font></string>
+    <string name="old_box_seal_no2">Old Box Seal No.2 <font color='#f32013'>*</font></string>
+    <string name="new_box_seal_no2">New Box Seal No.2 <font color='#f32013'>*</font></string>
+    <string name="old_nic_no">Old NIC IMEI No.<font color='#f32013'>*</font></string>
+    <string name="new_nic_no">New NIC IMEI No.<font color='#f32013'>*</font></string>
+    <string name="old_sim_no">Old SIM No.<font color='#f32013'>*</font></string>
+    <string name="new_sim_no">New SIM No.<font color='#f32013'>*</font></string>
+    <string name="please_enter_old_nic_no">Please enter Old Nic IMEI No.</string>
+    <string name="please_enter_new_nic_no">Please enter New Nic IMEI No.</string>
+    <string name="please_enter_old_sim_no">Please enter Old Sim No.</string>
+    <string name="please_enter_new_sim_no">Please enter New Sim No.</string>
+    <string name="please_enter_old_nic_seal_no">Please enter old Nic Seal No.</string>
+    <string name="please_enter_new_nic_seal_no">Please enter New Nic Seal No.</string>
+    <string name="please_attach_old_nic_image">Please Attach Old Nic Image.</string>
+    <string name="please_attach_new_nic_image">Please Attach New Nic Image.</string>
+    <string name="please_attach_old_sim_image">Please Attach Old Sim Image.</string>
+    <string name="please_attach_new_sim_image">Please Attach New Sim Image.</string>
+    <string name="please_attach_error_code_image">Please Attach Initial Error Code Image.</string>
+    <string name="please_attach_final_error_code_image">Please Attach Final Error Code Image.</string>
+    <string name="please_attach_complete_meter_image">Please Attach Complete Meter Image.</string>
+    <string name="duplicate_seal_number_box_new_1">Duplicate Seal No not allowed in New Box Seal Number 1</string>
+    <string name="duplicate_seal_number_box_new_2">Duplicate Seal No not allowed in New Box Seal Number 2</string>
+    <string name="mx_new_box_seal_number_complaint_1">Please Select Maximum 1 New Box Seal Number 1 from List</string>
+    <string name="mx_new_box_seal_number_complaint_2">Please Select Maximum 1 New Box Seal Number 2 from List</string>
+    <string name="select_new_box_seal_number_1">Please Select New Box Seal Number 1 from List</string>
+    <string name="select_new_box_seal_number_2">Please Select New Box Seal Number 2 from List</string>
+
+    <string name="enter_old_box_seal_no1">Please enter Old Box Seal No. 1</string>
+    <string name="enter_old_box_seal_no2">Please enter Old Box Seal No. 2</string>
+    <string name="meter_no_man">Meter No. <font color='#f32013'>*</font></string>
+    <string name="please_enter_valid_old_nic_no">Please enter valid Old Nic IMEI No.</string>
+    <string name="please_enter_valid_new_nic_no">Please enter valid New Nic IMEI No.</string>
+    <string name="please_enter_valid_old_sim_no">Please enter valid Old Sim No.</string>
+    <string name="please_enter_valid_new_sim_no">Please enter valid New Sim No.</string>
+    <string name="please_enter_valid_nic_no">Please enter valid Nic IMEI No.</string>
+    <string name="feeder_code_man">Feeder Code <font color='#f32013'>*</font></string>
+    <string name="enter_feeder_name_new">Please enter Feeder Name.</string>
+
+    <string name="complaint_level1">Complaint Level1</string>
+    <string name="complaint_level2">Complaint Level2</string>
+    <string name="complaint_level3">Complaint Level3</string>
+    <string name="complaint_level4">Complaint Level4</string>
+    <string name="complaint_level5">Complaint Level5</string>
+    <string name="old_box_seal_1">Old Box Seal No.1</string>
+    <string name="new_box_seal_1">New Box Seal No.1</string>
+    <string name="old_box_seal_2">Old Box Seal No.2</string>
+    <string name="new_box_seal_2">New Box Seal No.2</string>
+    <string name="field_meter_no">Field Meter No.</string>
+    <string name="old_nic_number">Old NIC No.</string>
+    <string name="new_nic_number">New NIC No.</string>
+    <string name="old_sim_number">Old SIM No.</string>
+    <string name="new_sim_number">New SIM No.</string>
+    <string name="sim_number">SIM No.</string>
+
+    <string name="old_nic_seal_number">Old Nic Seal No.</string>
+    <string name="new_nic_seal_number">New Nic Seal No.</string>
+    <string name="terminal_seal">Terminal Seal</string>
+    <string name="meter_box_seal">Meter Box Seal</string>
+    <string name="meter_body_seal">Meter Body Seal</string>
+    <string name="old_meter_body_seal">Old Body Seal No.</string>
+    <string name="new_meter_body_seal">New Body Seal No.</string>
+    <string name="nic_seal">Nic Seal</string>
+    <string name="select_atleast_any_one_seal_box">Please select atleast anyone seal box.</string>
+    <string name="enter_old_body_seal_no">Please enter Old Body Seal No</string>
+    <string name="enter_new_body_seal_no">Please enter New Body Seal No</string>
+    <string name="please_attach_old_seal_image">Please Attach Old Seal Image.</string>
+    <string name="please_attach_new_seal_image">Please Attach New Seal Image.</string>
+    <string name="old_meter_box">Old Meter Box <font color='#f32013'>*</font></string>
+    <string name="new_meter_box">New Meter Box <font color='#f32013'>*</font></string>
+    <string name="enter_old_meter_box">Please enter Old Meter Box No.</string>
+    <string name="enter_new_meter_box">Please enter New Meter Box No.</string>
+    <string name="old_meter_box_image">Old Meter Box \n Image</string>
+    <string name="new_meter_box_image">New Meter Box \n Image</string>
+    <string name="please_attach_old_meter_box_image">Please Attach Old Meter Box Image.</string>
+    <string name="please_attach_new_meter_box_image">Please Attach New Meter Box Image.</string>
+    <string name="enter_nic_imei_no">Please enter Nic IMEI No. </string>
+    <string name="village_name">Village</string>
+    <string name="village_census_code">Village Census Code</string>
+    <string name="ward">Ward</string>
+    <string name="ward_code">Ward Code</string>
+    <string name="alternate_mobile_no">Alternate Mobile No.</string>
+    <string name="other_village">Other Village</string>
+    <string name="other_ward">Other Ward</string>
+    <string name="document_no">Document No.</string>
+    <string name="document_type">Document Type</string>
+    <string name="consumer_activity">Consumer Activity</string>
+    <string name="no_of_connection">No. of Connection</string>
+    <string name="meter_badge_no">Meter Bedge No.</string>
+    <string name="metallic_enclosed">Metallic Enclosed</string>
+    <string name="lt_pole_condition">LT Pole Condition</string>
+    <string name="neutral_availablity">Neutral Availability</string>
+    <string name="other_consumer_activity">Other Consumer Activity</string>
+    <string name="old_nic_no_rc">Old NIC IMEI No.</string>
+    <string name="new_nic_no_rc">New NIC IMEI No.</string>
+    <string name="error_dis">Error Display </string>
+    <string name="error_display">Error Display <font color='#f32013'>*</font></string>
+    <string name="action_taken">Action Taken <font color='#f32013'>*</font></string>
+    <string name="action_taken_fr">Action Taken </string>
+    <string name="action_remark">Action Remark <font color='#f32013'>*</font></string>
+    <string name="action_remark_fr">Action Remark </string>
+    <string name="please_select_error_display">Please select Error Display.</string>
+    <string name="please_select_action_taken">Please select Action Taken.</string>
+    <string name="please_select_action_remark">Please select Action Remark.</string>
+    <string name="enter_new_meter_box_no1">Please enter new Box Seal No 1.</string>
+    <string name="enter_new_meter_box_no2">Please enter new Box Seal No 2.</string>
+    <string name="old_reset_button_seal_no">Old Reset Button Seal No.</string>
+    <string name="new_reset_button_seal_no">New Reset Button Seal No.</string>
+
+    <string name="enter_old_reset_seal_no">Please enter old Reset Button Seal No.</string>
+    <string name="enter_new_reset_seal_no">Please enter new Reset Button Seal No.</string>
+    <string name="duplicate_new_reset_number_meter_body">Duplicate Seal No not allowed in New Reset Button Seal Number</string>
+    <string name="mx_new_reset_seal_number_manual">Please Select Maximum 1 New Reset Button Seal Number</string>
+    <string name="mx_new_terminal_seal_number_for_1ph">Please Select Maximum 1 New Meter Terminal Seal Number from List</string>
+    <string name="select_new_reset_seal_number">Please Select New Reset Button Seal Number from List</string>
+
+    <string name="please_select_meter_make_name">Please Select Meter Make Name.</string>
+    <string name="enter_meter_serial_no">Please enter Meter Serial No.</string>
+    <string name="select_modem_antenna_availablity"> Please select Modem Antenna Availablity</string>
+    <string name="please_new_modem_image">Please Attach New Modem Image.</string>
+    <string name="please_antenna_image">Please Attach Anteena Image.</string>
+    <string name="please_sim_image">Please Attach Sim Image.</string>
+    <string name="please_cabel_image">Please Attach Optical/Serial Cable Image Image.</string>
+    <string name="please_panel_image">Please Attach Panel Image.</string>
+    <string name="existing_meter_detail">Existing Meter Details</string>
+    <string name="please_enter_old_modem_type">Please enter Old Modem Type</string>
+    <string name="please_enter_old_modem_serial">Please enter New Modem Serial</string>
+
+    <string name="total_visited_feeder">Total Visited Feeder: </string>
+    <string name="optical_seal_no">Optical Seal No.</string>
+    <string name="select_old_modem_make">Please select old Modem Make.</string>
+    <string name="enter_optical_seal_no">Please enter Optical Seal No.</string>
+    <string name="duplicate_optical_number_meter_body">Duplicate Seal No not allowed in Optical Seal Number</string>
+    <string name="mx_optical_seal_number_manual">Please Select Maximum 1 Optical Seal Number</string>
+    <string name="select_optical_seal_number">Please Select Optical Seal Number from List</string>
+
+
+    <string name="please_select_old_modem_type">Please Select Old Modem Type</string>
+    <string name="please_enter_old_modem_no">Please enter Old Modem No.</string>
+    <string name="please_select_new_modem_type">Please Select New Modem Type</string>
+    <string name="select_new_modem_make">Please select New Modem Make.</string>
+    <string name="please_enter_new_modem_no">Please enter New Modem No.</string>
+
+    <string name="old_box_seal">Old Box Seal No.</string>
+    <string name="new_box_seal">New Box Seal No.</string>
+    <string name="enter_old_box_seal_no">Please enter Old Box Seal No.</string>
+    <string name="duplicate_seal_number_box_new">Duplicate Seal No not allowed in New Box Seal Number</string>
+    <string name="mx_new_box_seal_number_complaint_new">Please Select Maximum 2 New Box Seal Number from List</string>
+
+
+    <string name="site_meter_no">Site Meter No.</string>
+    <string name="site_modem_serial_no">Site Modem Serial No.</string>
+    <string name="enter_site_modem_serial_no">Please enter Site Modem Serial No.</string>
+    <string name="please_enter_neutral_current">Please enter Neutral Current</string>
+    <string name="please_enter_phase_current">Please enter Phase Current</string>
+    <string name="please_enter_phase_voltage">Please enter Phase Voltage</string>
+    <string name="cable_image">Cable Image</string>
+    <string name="phase_voltage">Phase Voltage</string>
+    <string name="phase_current">Phase Current</string>
+    <string name="neutral_current">Neutral Current</string>
+    <string name="relay_connect">Pending Relay</string>
+    <string name="pending_billing">Pending Reading</string>
+    <string name="billing_visit">Reading Visit</string>
+    <string name="relay_visit">Relay Operation Visit</string>
+    <string name="single_phase">Single Phase</string>
+    <string name="three_phase">Three Phase</string>
+    <string name="dlms">DLMS</string>
+    <string name="import_reading">Reading</string>
+    <string name="reading_1_kwh">Reading 1 (KWh)</string>
+    <string name="reading_2_kvah">Reading 2 (KVAh)</string>
+    <string name="power_factor_pf">Power Factor (PF)</string>
+    <string name="correct_pf">Please Enter Correct PF</string>
+    <string name="old_sealing">Old Sealing</string>
+    <string name="new_sealing">New Sealing</string>
+    <string name="continue_to_info">Continue to Info</string>
+    <string name="meter_info">Meter info</string>
+    <string name="process_name">Process Name</string>
+    <string name="prev_reading_1_kwh">Prev. Reading 1 (KWH)</string>
+    <string name="prev_reading_2_kwh">Prev. Reading 2 (KVAH)</string>
+    <string name="click_here_to_close">Click here to Close</string>
+    <string name="confirm">Confirm</string>
+    <string name="please_provide_the_verification_code">Please provide the verification code</string>
+    <string name="enter_4_digit_otp">ENTER 4 DIGIT OTP</string>
+    <string name="enter_valid_4_digit_otp">PLEASE ENTER VALID 4 DIGIT OTP</string>
+    <string name="otp_not_match">OTP not matched</string>
+    <string name="confirm_otp">Confirm OTP</string>
+
+    <string name="ticket_no">"Ticket No. : "</string>
+    <string name="ticket_date">"Ticket Date : "</string>
+    <string name="reached_time">"Reached Time : "</string>
+    <string name="verify">Verify\n</string>
+    <string name="referance_details">Reference details has been successfully submitted.</string>
+    <string name="multi_storage_consumer">Multi Storage Consumer</string>
+    <string name="previous_work_pending">Please complete your previous work.</string>
+
+
+    <string name="consumer_s_address">Consumer\'s Address</string>
+    <string name="meter_make_man">Meter Make <font color='#f32013'>*</font></string>
+    <string name="phase_type_man">Phase Type <font color='#f32013'>*</font></string>
+    <string name="power_factor_">Power Factor (PF)</string>
+    <string name="meter_capacity_man">Meter Capacity <font color='#f32013'>*</font></string>
+    <string name="meter_body_seal_1">Meter Body Seal 1</string>
+    <string name="meter_installed_in_metallic_enclosed">Meter Installed in Metallic Enclosed</string>
+    <string name="attributable_to_cspdcl_man">Attributable To <font color='#f32013'>*</font></string>
+    <string name="jir_sign_man">JIR Sign <font color='#f32013'>*</font></string>
+    <string name="meter_retain_remark">Meter Retain Remark</string>
+    <string name="quantity_length">Quantity/Length</string>
+    <string name="b_p_number">B.P. Number</string>
+    <string name="consumer_type">Consumer Type</string>
+    <string name="please_enter_rsrp">Please enter RSRP</string>
+    <string name="please_enter_rssi">Please enter RSSI</string>
+    <string name="please_enter_snr">Please enter SNR</string>
+    <string name="please_attach_rsrp_image">Please attach RSRP Image</string>
+    <string name="please_attach_rssi_image">Please attach RSSI Image</string>
+    <string name="please_attach_snr_image">Please attach SNR</string>
+    <string name="download_mri">Press <font color="#BD4328">DOWNLOAD</font> button then your assigned Reading Consumers &amp; Replay Operations will be downloaded on your mobile</string>
+
+
+    <string name="validation">Please Enter Valid value</string>
+    <string name="manual_1">Current Meter Reading 2 should be either greater than or equal 0.0 or no value</string>
+    <string name="manual_2">Current Meter Reading 1 should be either greater than or equal 0.0 or no value</string>
+    <string name="manual_3">Max Demand KW should be either greater than or equal 0.0 or no value</string>
+    <string name="manual_4">Max Demand KVA should be either greater than or equal 0.0 or no value</string>
+    <string name="manual_5">Max Demand KVA should be greater than or equal Max Demand KW</string>
+    <string name="manual_11">Reading1 should not be greater than Reading2</string>
+    <string name="wrongwifi">You are not Connected with Wifi Probe. Please Choose Correct Wi-Fi.</string>
+    <string name="validatereading">Reading can not be blank</string>
+
+    <string name="meter_no_relay">Meter No : </string>
+    <string name="relay_operation">Relay Operation : </string>
+
+    <string name="accountid">Account ID :</string>
+    <string name="_29xxxx092">TEST123456</string>
+    <string name="meter_no_mismatch">Meter No is not matched Please provide correct Meter No</string>
+    <string name="meter_make_mismatch">Meter Make is not matched Please provide correct Meter Make</string>
+    <string name="meter_no_or_meter_make">Meter No or Meter Make Mismatch</string>
+    <string name="downloading_Sdk_data">Validating SDK...</string>
+    <string name="ugo_smart_buddy">UGO Smart Buddy</string>
+
+
+</resources>

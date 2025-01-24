@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/txtDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:padding="@dimen/activity_margin_10dp"
+        android:textSize="@dimen/text_size_16sp"
+        android:layout_margin="@dimen/activity_margin_10dp"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/activity_margin_3dp"
+        android:background="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:id="@+id/txtDialogMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Message"
+        android:padding="@dimen/activity_margin_10dp"
+        android:textSize="@dimen/text_size_16sp"
+        android:layout_margin="@dimen/activity_margin_10dp" />
+
+    <Button
+        android:id="@+id/btnDialogOk"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/transparent"
+        android:textColor="@color/black"
+        android:text="Ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_16sp"
+        android:layout_marginBottom="@dimen/activity_margin_10dp"
+        />
+</LinearLayout>

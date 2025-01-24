@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f3f3f3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_f3f3f3">
+
+        <LinearLayout
+            android:id="@+id/animation_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layoutTxt"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/load_gif1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_margin_200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/loding" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/load_gif2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_margin_200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/loader_still"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ProgressLayout"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/txtPleaseWait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Please wait..."
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_margin_1dp"
+                android:layout_marginStart="@dimen/activity_margin_30dp"
+                android:layout_marginTop="@dimen/activity_margin_8dp"
+                android:layout_marginEnd="@dimen/activity_margin_30dp"
+                android:layout_marginBottom="@dimen/activity_margin_8dp"
+                android:background="@color/color_eaeaea" />
+
+            <TextView
+                android:id="@+id/txtChooseIns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You've Chosen Meter Make"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12sp" />
+
+            <TextView
+                android:id="@+id/txtPhase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Secure- 3Ph- DLMS"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16sp" />
+
+            <TextView
+                android:id="@+id/txtReceivedByte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12sp"
+                tools:text="Receiving Bytes - 0000001" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ProgressLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtInstruction"
+            android:layout_marginStart="@dimen/activity_margin_80dp"
+            android:layout_marginEnd="@dimen/activity_margin_80dp"
+            android:layout_marginBottom="@dimen/activity_margin_30dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/layoutBilling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_margin_5dp"
+                android:layout_marginBottom="@dimen/activity_margin_5dp"
+                android:background="@drawable/layout_tb_bg"
+                android:orientation="horizontal"
+                android:padding="@dimen/activity_margin_2dp">
+
+                <ProgressBar
+                    android:id="@+id/progressBilling"
+                    android:layout_width="@dimen/activity_margin_0dp"
+                    android:layout_height="@dimen/activity_margin_30dp"
+                    android:layout_weight=".15"
+                    android:padding="@dimen/activity_margin_2dp" />
+
+                <ImageView
+                    android:id="@+id/imgBillingCheck"
+                    android:layout_width="@dimen/activity_margin_0dp"
+                    android:layout_height="@dimen/activity_margin_30dp"
+                    android:layout_weight=".15"
+                    android:padding="@dimen/activity_margin_2dp"
+                    android:src="@drawable/ic_tick_solid"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/imgBillingCancel"
+                    android:layout_width="@dimen/activity_margin_0dp"
+                    android:layout_height="@dimen/activity_margin_30dp"
+                    android:layout_weight=".15"
+                    android:padding="@dimen/activity_margin_2dp"
+                    android:src="@drawable/ic_cancel"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/lblMeterBilling"
+                    android:layout_width="@dimen/activity_margin_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".9"
+                    android:clickable="true"
+                    android:gravity="start"
+                    android:padding="@dimen/activity_margin_2dp"
+                    android:text="Meter Billing"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_12sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutTamper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_margin_5dp"
+                android:layout_marginBottom="@dimen/activity_margin_5dp"
+                android:background="@drawable/layout_tb_bg"
+                android:orientation="horizontal"
+                android:padding="@dimen/activity_margin_2dp">
+
+                <ProgressBar
+                    android:id="@+id/progressTamper"
+                    android:layout_width="@dimen/activity_margin_0dp"
+                    android:layout_height="@dimen/activity_margin_30dp"
+                    android:layout_weight=".15"
+                    android:padding="@dimen/activity_margin_2dp" />
+
+                <ImageView
+                    android:id="@+id/imgTamperCheck"
+                    android:layout_width="@dimen/activity_margin_0dp"
+                    android:layout_height="@dimen/activity_margin_30dp"
+                    android:layout_weight=".15"
+                    android:padding="@dimen/activity_margin_2dp"
+                    android:src="@drawable/ic_tick_solid"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/imgTamperCancel"
+                    android:layout_width="@dimen/activity_margin_0dp"
+                    android:layout_height="@dimen/activity_margin_30dp"
+                    android:layout_weight=".15"
+                    android:padding="@dimen/activity_margin_2dp"
+                    android:src="@drawable/ic_cancel"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/lblTamper"
+                    android:layout_width="@dimen/activity_margin_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".9"
+                    android:clickable="true"
+                    android:gravity="start"
+                    android:padding="@dimen/activity_margin_2dp"
+                    android:text="Tamper Data"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutLoad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_margin_5dp"
+                android:layout_marginBottom="@dimen/activity_margin_5dp"
+                android:background="@drawable/layout_tb_bg"
+                android:orientation="horizontal"
+                android:padding="@dimen/activity_margin_2dp">
+
+                <ProgressBar
+                    android:id="@+id/progressLoadSurvey"
+                    android:layout_width="@dimen/activity_margin_0dp"
+                    android:layout_height="@dimen/activity_margin_30dp"
+                    android:layout_weight=".15"
+                    android:padding="@dimen/activity_margin_2dp" />
+
+                <ImageView
+                    android:id="@+id/imgLoadSurveyCheck"
+                    android:layout_width="@dimen/activity_margin_0dp"
+                    android:layout_height="@dimen/activity_margin_30dp"
+                    android:layout_weight=".15"
+                    android:padding="@dimen/activity_margin_2dp"
+                    android:src="@drawable/ic_tick_solid"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/imgLoadSurveyCancel"
+                    android:layout_width="@dimen/activity_margin_0dp"
+                    android:layout_height="@dimen/activity_margin_30dp"
+                    android:layout_weight=".15"
+                    android:padding="@dimen/activity_margin_2dp"
+                    android:src="@drawable/ic_cancel"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/lblLoadSurvey"
+                    android:layout_width="@dimen/activity_margin_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".9"
+                    android:clickable="true"
+                    android:gravity="start"
+                    android:padding="@dimen/activity_margin_2dp"
+                    android:text="Load Survey"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/controlLayout"
+            android:layout_marginTop="@dimen/activity_margin_10dp"
+            android:layout_marginBottom="@dimen/activity_margin_10dp"
+            android:gravity="center"
+            android:textColor="@color/color_747474"
+            android:textSize="@dimen/text_size_12sp" />
+
+        <LinearLayout
+            android:id="@+id/controlLayout"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_margin_55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/activity_margin_12dp"
+            android:layout_marginEnd="@dimen/activity_margin_12dp"
+            android:layout_marginBottom="@dimen/activity_margin_12dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="@dimen/activity_margin_0dp"
+                android:layout_height="@dimen/activity_margin_50dp"
+                android:layout_marginLeft="@dimen/activity_margin_2dp"
+                android:layout_marginRight="@dimen/activity_margin_1dp"
+                android:layout_weight=".3"
+                android:background="@drawable/btn_layout"
+                android:gravity="center"
+                android:text="Back"
+                android:textAllCaps="true"
+                android:textColor="@drawable/button_textcolor_selector"
+                android:textSize="@dimen/text_size_14sp"
+                android:translationZ="@dimen/activity_margin_5dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnRetry"
+                android:layout_width="@dimen/activity_margin_0dp"
+                android:layout_height="@dimen/activity_margin_50dp"
+                android:layout_marginLeft="@dimen/activity_margin_2dp"
+                android:layout_marginRight="@dimen/activity_margin_1dp"
+                android:layout_weight=".3"
+                android:background="@drawable/btn_layout"
+                android:gravity="center"
+                android:text="Retry"
+                android:textAllCaps="true"
+                android:textColor="@drawable/button_textcolor_selector"
+                android:textSize="@dimen/text_size_14sp"
+                android:translationZ="@dimen/activity_margin_5dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnDone"
+                android:layout_width="@dimen/activity_margin_0dp"
+                android:layout_height="@dimen/activity_margin_50dp"
+                android:layout_marginLeft="@dimen/activity_margin_2dp"
+                android:layout_marginRight="@dimen/activity_margin_1dp"
+                android:layout_weight=".3"
+                android:background="@drawable/btn_layout"
+                android:gravity="center"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="@drawable/button_textcolor_selector"
+                android:textSize="@dimen/text_size_14sp"
+                android:translationZ="@dimen/activity_margin_5dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>
